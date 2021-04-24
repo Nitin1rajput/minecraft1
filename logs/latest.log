@@ -1,144 +1,88 @@
-<<<<<<< HEAD
-[18:28:00] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[18:28:00] [main/INFO]: Reloading ResourceManager: Default, bukkit, BattyCoordinates_005
-[18:28:01] [Worker-Main-3/INFO]: Loaded 7 recipes
-[18:28:02] [Server thread/INFO]: Starting minecraft server version 1.16.5
-[18:28:02] [Server thread/INFO]: Loading properties
-[18:28:02] [Server thread/INFO]: This server is running Paper version git-Paper-613 (MC: 1.16.5) (Implementing API version 1.16.5-R0.1-SNAPSHOT)
-[18:28:02] [Server thread/INFO]: Debug logging is disabled
-[18:28:02] [Server thread/INFO]: Using 4 threads for Netty based IO
-[18:28:02] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[18:28:02] [Server thread/INFO]: Default game type: SURVIVAL
-[18:28:02] [Server thread/INFO]: Generating keypair
-[18:28:02] [Server thread/INFO]: Starting Minecraft server on *:25565
-[18:28:03] [Server thread/INFO]: Using default channel type
-[18:28:03] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[18:28:03] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[18:28:03] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[18:28:03] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[18:28:03] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[18:28:03] [Server thread/INFO]: Preparing level "world"
-[18:28:04] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[18:28:04] [Server thread/INFO]: Loaded 0 spawn chunks for world world
-[18:28:04] [Server thread/INFO]: Preparing spawn area: 0%
-[18:28:04] [Server thread/INFO]: Preparing spawn area: 0%
-[18:28:04] [Server thread/INFO]: Time elapsed: 516 ms
-[18:28:04] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[18:28:05] [Server thread/INFO]: Loaded 0 spawn chunks for world world_nether
-[18:28:05] [Server thread/INFO]: Time elapsed: 79 ms
-[18:28:05] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[18:28:05] [Server thread/INFO]: Loaded 0 spawn chunks for world world_the_end
-[18:28:05] [Server thread/INFO]: Preparing spawn area: 0%
-[18:28:05] [Server thread/INFO]: Preparing spawn area: 0%
-[18:28:06] [Server thread/INFO]: Preparing spawn area: 0%
-[18:28:06] [Worker-Main-2/INFO]: Preparing spawn area: 100%
-[18:28:06] [Server thread/INFO]: Time elapsed: 1584 ms
-[18:28:06] [Server thread/INFO]: Running delayed init tasks
-[18:28:06] [Server thread/INFO]: Done (4.095s)! For help, type "help"
-[18:28:06] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] ************************************************************
-[18:28:06] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * WARNING - YOU ARE RUNNING AN OUTDATED VERSION OF JAVA.
-[18:28:06] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * PAPER WILL STOP BEING COMPATIBLE WITH THIS VERSION OF
-[18:28:06] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * JAVA WHEN MINECRAFT 1.17 IS RELEASED.
-[18:28:06] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] *
-[18:28:06] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * Please update the version of Java you use to run Paper
-[18:28:06] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * to at least Java 11. When Paper for Minecraft 1.17 is
-[18:28:06] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * released support for versions of Java before 11 will
-[18:28:06] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * be dropped.
-[18:28:06] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] *
-[18:28:06] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * Current Java version: 1.8.0_291
-[18:28:06] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] *
-[18:28:06] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * Check this forum post for more information: 
-[18:28:06] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] *   https://papermc.io/java11
-[18:28:06] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] ************************************************************
-[18:28:06] [Server thread/INFO]: Timings Reset
-[18:29:53] [User Authenticator #1/INFO]: UUID of player kattebaaz is d1073450-4bee-318d-ba9b-57b62429f548
-[18:29:53] [Server thread/INFO]: kattebaaz joined the game
-[18:29:54] [Server thread/INFO]: kattebaaz[/0:0:0:0:0:0:0:1:55843] logged in with entity id 268 at ([world]-294.47040659855884, 70.0, 503.6820905253391)
-[18:32:54] [Server thread/INFO]: Stopping server
-[18:32:54] [Server thread/INFO]: Saving players
-[18:32:54] [Server thread/INFO]: kattebaaz lost connection: Server closed
-[18:32:54] [Server thread/INFO]: kattebaaz left the game
-[18:32:54] [Server thread/INFO]: Saving worlds
-[18:32:54] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[18:32:58] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[18:32:58] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[18:32:59] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[18:32:59] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[18:32:59] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[18:32:59] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[18:32:59] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[18:32:59] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[18:32:59] [Server thread/INFO]: Flushing Chunk IO
-[18:32:59] [Server thread/INFO]: Closing Thread Pool
-[18:32:59] [Server thread/INFO]: Closing Server
-=======
-[18:22:36] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[18:22:38] [main/INFO]: Reloading ResourceManager: Default, bukkit, BattyCoordinates_005
-[18:22:42] [Worker-Main-1/INFO]: Loaded 7 recipes
-[18:22:46] [Server thread/INFO]: Starting minecraft server version 1.16.5
-[18:22:46] [Server thread/INFO]: Loading properties
-[18:22:47] [Server thread/INFO]: This server is running Paper version git-Paper-613 (MC: 1.16.5) (Implementing API version 1.16.5-R0.1-SNAPSHOT)
-[18:22:47] [Server thread/INFO]: Debug logging is disabled
-[18:22:47] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[18:22:47] [Server thread/INFO]: Using 4 threads for Netty based IO
-[18:22:48] [Server thread/INFO]: Default game type: SURVIVAL
-[18:22:48] [Server thread/INFO]: Generating keypair
-[18:22:48] [Server thread/INFO]: Starting Minecraft server on *:25565
-[18:22:49] [Server thread/INFO]: Using default channel type
-[18:22:53] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[18:22:53] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[18:22:53] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[18:22:53] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[18:22:53] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[18:22:53] [Server thread/INFO]: Preparing level "world"
-[18:22:54] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[18:22:55] [Server thread/INFO]: Loaded 0 spawn chunks for world world
-[18:22:55] [Server thread/INFO]: Time elapsed: 832 ms
-[18:22:55] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[18:22:56] [Server thread/INFO]: Loaded 0 spawn chunks for world world_nether
-[18:22:56] [Server thread/INFO]: Time elapsed: 204 ms
-[18:22:56] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[18:22:56] [Server thread/INFO]: Loaded 0 spawn chunks for world world_the_end
-[18:22:56] [Server thread/INFO]: Time elapsed: 143 ms
-[18:22:56] [Server thread/INFO]: Running delayed init tasks
-[18:22:56] [Server thread/INFO]: Done (9.500s)! For help, type "help"
-[18:22:56] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] ************************************************************
-[18:22:56] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * WARNING - YOU ARE RUNNING AN OUTDATED VERSION OF JAVA.
-[18:22:56] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * PAPER WILL STOP BEING COMPATIBLE WITH THIS VERSION OF
-[18:22:56] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * JAVA WHEN MINECRAFT 1.17 IS RELEASED.
-[18:22:56] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] *
-[18:22:56] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * Please update the version of Java you use to run Paper
-[18:22:56] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * to at least Java 11. When Paper for Minecraft 1.17 is
-[18:22:56] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * released support for versions of Java before 11 will
-[18:22:56] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * be dropped.
-[18:22:56] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] *
-[18:22:56] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * Current Java version: 1.8.0_51
-[18:22:56] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] *
-[18:22:56] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * Check this forum post for more information: 
-[18:22:56] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] *   https://papermc.io/java11
-[18:22:56] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] ************************************************************
-[18:22:56] [Server thread/INFO]: Timings Reset
-[18:23:02] [User Authenticator #1/INFO]: UUID of player gusainrahul497 is 34a7f58e-f422-3ab6-a7e4-613911f11587
-[18:23:07] [Server thread/INFO]: gusainrahul497 joined the game
-[18:23:07] [Server thread/INFO]: gusainrahul497[/192.168.1.168:53406] logged in with entity id 51 at ([world]-301.3338477380096, 65.0, 535.6164405373376)
-[18:23:21] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5121ms or 102 ticks behind
-[18:23:39] [Server thread/INFO]: gusainrahul497 lost connection: Disconnected
-[18:23:39] [Server thread/INFO]: gusainrahul497 left the game
-[18:24:32] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5001ms or 100 ticks behind
-[18:25:07] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5165ms or 103 ticks behind
-[18:26:19] [Server thread/INFO]: Stopping server
-[18:26:19] [Server thread/INFO]: Saving players
-[18:26:19] [Server thread/INFO]: Saving worlds
-[18:26:19] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[18:26:22] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[18:26:22] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[18:26:25] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[18:26:25] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[18:26:25] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[18:26:25] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[18:26:26] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[18:26:26] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[18:26:26] [Server thread/INFO]: Flushing Chunk IO
-[18:26:26] [Server thread/INFO]: Closing Thread Pool
-[18:26:26] [Server thread/INFO]: Closing Server
->>>>>>> e4e0aca85e1a78f952d57fe94674a6bad68ea995
+[18:44:08] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[18:44:08] [main/WARN]: Usercache.json is corrupted or has bad formatting. Deleting it to prevent further issues.
+[18:44:09] [main/INFO]: Reloading ResourceManager: Default, bukkit, BattyCoordinates_005
+[18:44:12] [Worker-Main-1/INFO]: Loaded 7 recipes
+[18:44:13] [Server thread/INFO]: Starting minecraft server version 1.16.5
+[18:44:13] [Server thread/INFO]: Loading properties
+[18:44:13] [Server thread/INFO]: This server is running Paper version git-Paper-613 (MC: 1.16.5) (Implementing API version 1.16.5-R0.1-SNAPSHOT)
+[18:44:14] [Server thread/INFO]: Debug logging is disabled
+[18:44:14] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[18:44:14] [Server thread/INFO]: Using 4 threads for Netty based IO
+[18:44:14] [Server thread/INFO]: Default game type: SURVIVAL
+[18:44:14] [Server thread/INFO]: Generating keypair
+[18:44:14] [Server thread/INFO]: Starting Minecraft server on *:25565
+[18:44:14] [Server thread/INFO]: Using default channel type
+[18:44:16] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[18:44:16] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[18:44:16] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[18:44:16] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[18:44:16] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[18:44:16] [Server thread/INFO]: Preparing level "world"
+[18:44:16] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[18:44:17] [Server thread/INFO]: Loaded 0 spawn chunks for world world
+[18:44:17] [Server thread/INFO]: Time elapsed: 372 ms
+[18:44:17] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[18:44:17] [Server thread/INFO]: Loaded 0 spawn chunks for world world_nether
+[18:44:17] [Server thread/INFO]: Time elapsed: 219 ms
+[18:44:17] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[18:44:17] [Server thread/INFO]: Loaded 0 spawn chunks for world world_the_end
+[18:44:17] [Server thread/INFO]: Time elapsed: 82 ms
+[18:44:17] [Server thread/INFO]: Running delayed init tasks
+[18:44:17] [Server thread/INFO]: Done (4.053s)! For help, type "help"
+[18:44:17] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] ************************************************************
+[18:44:17] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * WARNING - YOU ARE RUNNING AN OUTDATED VERSION OF JAVA.
+[18:44:17] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * PAPER WILL STOP BEING COMPATIBLE WITH THIS VERSION OF
+[18:44:17] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * JAVA WHEN MINECRAFT 1.17 IS RELEASED.
+[18:44:17] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] *
+[18:44:17] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * Please update the version of Java you use to run Paper
+[18:44:17] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * to at least Java 11. When Paper for Minecraft 1.17 is
+[18:44:17] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * released support for versions of Java before 11 will
+[18:44:17] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * be dropped.
+[18:44:17] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] *
+[18:44:17] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * Current Java version: 1.8.0_51
+[18:44:17] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] *
+[18:44:17] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * Check this forum post for more information: 
+[18:44:17] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] *   https://papermc.io/java11
+[18:44:17] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] ************************************************************
+[18:44:17] [Server thread/INFO]: Timings Reset
+[18:44:53] [User Authenticator #1/INFO]: UUID of player gusainrahul497 is 34a7f58e-f422-3ab6-a7e4-613911f11587
+[18:44:54] [Server thread/INFO]: gusainrahul497 joined the game
+[18:44:54] [Server thread/INFO]: gusainrahul497[/192.168.1.168:53601] logged in with entity id 265 at ([world]-301.39445689111227, 65.0, 534.5456394668854)
+[18:45:08] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5558ms or 111 ticks behind
+[18:46:06] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7120ms or 142 ticks behind
+[19:07:37] [Server thread/INFO]: gusainrahul497 was fireballed by Ghast
+[19:08:22] [Server thread/INFO]: gusainrahul497 issued server command: /tp -476 38 -37
+[19:08:22] [Server thread/INFO]: [gusainrahul497: Teleported gusainrahul497 to -475.5, 38.0, -36.5]
+[19:08:24] [Server thread/INFO]: gusainrahul497 tried to swim in lava
+[19:09:02] [Server thread/INFO]: gusainrahul497 issued server command: /tp -476 38 -37
+[19:09:02] [Server thread/INFO]: [gusainrahul497: Teleported gusainrahul497 to -475.5, 38.0, -36.5]
+[19:09:05] [Server thread/INFO]: gusainrahul497 tried to swim in lava
+[19:09:33] [Server thread/INFO]: gusainrahul497 issued server command: /gamemode creative
+[19:09:33] [Server thread/INFO]: [gusainrahul497: Set own game mode to Creative Mode]
+[19:09:41] [Server thread/INFO]: gusainrahul497 issued server command: /tp -476 38 -37
+[19:09:41] [Server thread/INFO]: [gusainrahul497: Teleported gusainrahul497 to -475.5, 38.0, -36.5]
+[19:09:56] [Server thread/INFO]: gusainrahul497 has completed the challenge [Hot Tourist Destinations]
+[19:10:49] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5430ms or 108 ticks behind
+[19:12:28] [Server thread/INFO]: gusainrahul497 issued server command: /tp 482 37 12
+[19:12:28] [Server thread/INFO]: [gusainrahul497: Teleported gusainrahul497 to 482.5, 37.0, 12.5]
+[19:14:08] [Server thread/INFO]: gusainrahul497 issued server command: /gamemode survival
+[19:14:08] [Server thread/INFO]: [gusainrahul497: Set own game mode to Survival Mode]
+[19:16:08] [Server thread/INFO]: gusainrahul497 tried to swim in lava to escape Skeleton
+[19:16:24] [Server thread/INFO]: gusainrahul497 lost connection: Disconnected
+[19:16:24] [Server thread/INFO]: gusainrahul497 left the game
+[19:17:03] [Server thread/INFO]: Stopping the server
+[19:17:03] [Server thread/INFO]: Stopping server
+[19:17:03] [Server thread/INFO]: Saving players
+[19:17:03] [Server thread/INFO]: Saving worlds
+[19:17:03] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[19:17:04] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[19:17:04] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[19:17:04] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[19:17:04] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[19:17:04] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[19:17:04] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[19:17:04] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[19:17:04] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[19:17:05] [Server thread/INFO]: Flushing Chunk IO
+[19:17:05] [Server thread/INFO]: Closing Thread Pool
+[19:17:05] [Server thread/INFO]: Closing Server
