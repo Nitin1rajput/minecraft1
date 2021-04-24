@@ -1,267 +1,64 @@
-[11:08:00] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[11:08:01] [main/INFO]: Reloading ResourceManager: Default, bukkit, BattyCoordinates_005
-[11:08:01] [Worker-Main-3/INFO]: Loaded 7 recipes
-[11:08:03] [Server thread/INFO]: Starting minecraft server version 1.16.5
-[11:08:03] [Server thread/INFO]: Loading properties
-[11:08:03] [Server thread/INFO]: This server is running Paper version git-Paper-613 (MC: 1.16.5) (Implementing API version 1.16.5-R0.1-SNAPSHOT)
-[11:08:03] [Server thread/INFO]: Debug logging is disabled
-[11:08:03] [Server thread/INFO]: Using 4 threads for Netty based IO
-[11:08:03] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[11:08:03] [Server thread/INFO]: Default game type: SURVIVAL
-[11:08:03] [Server thread/INFO]: Generating keypair
-[11:08:03] [Server thread/INFO]: Starting Minecraft server on *:25565
-[11:08:03] [Server thread/INFO]: Using default channel type
-[11:08:05] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[11:08:05] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[11:08:05] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[11:08:05] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[11:08:05] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[11:08:05] [Server thread/INFO]: Preparing level "world"
-[11:08:05] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[11:08:06] [Server thread/INFO]: Loaded 0 spawn chunks for world world
-[11:08:06] [Server thread/INFO]: Preparing spawn area: 0%
-[11:08:06] [Server thread/INFO]: Time elapsed: 471 ms
-[11:08:06] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[11:08:06] [Server thread/INFO]: Loaded 0 spawn chunks for world world_nether
-[11:08:06] [Server thread/INFO]: Time elapsed: 103 ms
-[11:08:06] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[11:08:06] [Server thread/INFO]: Loaded 0 spawn chunks for world world_the_end
-[11:08:07] [Server thread/INFO]: Time elapsed: 1062 ms
-[11:08:07] [Server thread/INFO]: Running delayed init tasks
-[11:08:07] [Server thread/INFO]: Done (4.024s)! For help, type "help"
-[11:08:07] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] ************************************************************
-[11:08:07] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * WARNING - YOU ARE RUNNING AN OUTDATED VERSION OF JAVA.
-[11:08:07] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * PAPER WILL STOP BEING COMPATIBLE WITH THIS VERSION OF
-[11:08:07] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * JAVA WHEN MINECRAFT 1.17 IS RELEASED.
-[11:08:07] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] *
-[11:08:07] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * Please update the version of Java you use to run Paper
-[11:08:07] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * to at least Java 11. When Paper for Minecraft 1.17 is
-[11:08:07] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * released support for versions of Java before 11 will
-[11:08:07] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * be dropped.
-[11:08:07] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] *
-[11:08:07] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * Current Java version: 1.8.0_291
-[11:08:07] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] *
-[11:08:07] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * Check this forum post for more information: 
-[11:08:07] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] *   https://papermc.io/java11
-[11:08:07] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] ************************************************************
-[11:08:07] [Server thread/INFO]: Timings Reset
-[11:09:01] [User Authenticator #1/INFO]: UUID of player kattebaaz is d1073450-4bee-318d-ba9b-57b62429f548
-[11:09:01] [Server thread/INFO]: kattebaaz joined the game
-[11:09:01] [Server thread/INFO]: kattebaaz[/0:0:0:0:0:0:0:1:64448] logged in with entity id 201 at ([world]-307.24657701877123, 64.0, 532.4078826188241)
-[11:10:14] [User Authenticator #2/INFO]: UUID of player gusainrahul497 is 34a7f58e-f422-3ab6-a7e4-613911f11587
-[11:10:14] [Server thread/INFO]: gusainrahul497 joined the game
-[11:10:14] [Server thread/INFO]: gusainrahul497[/0:0:0:0:0:0:0:1:64456] logged in with entity id 540 at ([world]-301.2167519405155, 65.0, 533.7089601499787)
-[11:10:24] [User Authenticator #2/INFO]: UUID of player Tracerx11 is 2a728dcd-9adf-3429-a4a1-8daa07501206
-[11:10:25] [Server thread/INFO]: Tracerx11 joined the game
-[11:10:25] [Server thread/INFO]: Tracerx11[/0:0:0:0:0:0:0:1:64458] logged in with entity id 568 at ([world]-53.5, 68.0, 53.5)
-[11:11:28] [Server thread/INFO]: kattebaaz issued server command: /teleport Tracerx11
-[11:11:28] [Server thread/INFO]: [kattebaaz: Teleported kattebaaz to Tracerx11]
-[11:12:12] [Server thread/INFO]: gusainrahul497 issued server command: /tp kattebaaz gusainrahul497
-[11:12:12] [Server thread/INFO]: [gusainrahul497: Teleported kattebaaz to gusainrahul497]
-[11:12:19] [Server thread/INFO]: gusainrahul497 issued server command: /tp Tracerx11 gusainrahul497
-[11:12:19] [Server thread/INFO]: [gusainrahul497: Teleported Tracerx11 to gusainrahul497]
-[11:13:27] [Server thread/INFO]: Tracerx11 has made the advancement [Sweet Dreams]
-[11:15:15] [Server thread/INFO]: Tracerx11 has made the advancement [Best Friends Forever]
-[11:18:46] [Server thread/INFO]: Tracerx11 has made the advancement [Suit Up]
-[11:25:08] [Server thread/INFO]: gusainrahul497 issued server command: /time set day
-[11:25:08] [Server thread/INFO]: [gusainrahul497: Set the time to 1000]
-[11:28:57] [Server thread/INFO]: kattebaaz has made the advancement [Isn't It Iron Pick]
-[11:30:19] [Server thread/INFO]: Tracerx11 has made the advancement [Isn't It Iron Pick]
-[11:33:27] [Server thread/INFO]: Tracerx11 has made the advancement [A Seedy Place]
-[11:34:52] [Server thread/INFO]: gusainrahul497 issued server command: /time set day
-[11:34:52] [Server thread/INFO]: [gusainrahul497: Set the time to 1000]
-[11:38:14] [Server thread/INFO]: kattebaaz was blown up by Creeper
-[11:40:04] [Server thread/INFO]: Tracerx11 has made the advancement [Stone Age]
-[11:42:39] [Server thread/INFO]: kattebaaz issued server command: /teleport gusainrahul497
-[11:42:39] [Server thread/INFO]: [kattebaaz: Teleported kattebaaz to gusainrahul497]
-[11:46:49] [Server thread/INFO]: kattebaaz was blown up by Creeper
-[11:47:15] [Server thread/INFO]: Villager EntityVillager['Villager'/469, uuid='6a912643-e2a1-4141-be3a-b503393f819a', l='ServerLevel[world]', x=-501.30, y=65.00, z=355.07, cx=-32, cz=22, tl=91446, v=true, d=false] died, message: 'Villager was slain by Zombie'
-[11:47:37] [Server thread/INFO]: gusainrahul497 issued server command: /time set day
-[11:47:37] [Server thread/INFO]: [gusainrahul497: Set the time to 1000]
-[11:50:50] [Server thread/INFO]: gusainrahul497 was slain by Enderman
-[11:50:54] [Server thread/INFO]: Tracerx11 has made the advancement [Monster Hunter]
-[11:51:00] [Server thread/INFO]: gusainrahul497 issued server command: /tp gusainrahul497 Tracerx11
-[11:51:00] [Server thread/INFO]: [gusainrahul497: Teleported gusainrahul497 to Tracerx11]
-[11:51:07] [Server thread/INFO]: Tracerx11 fell from a high place
-[11:51:12] [Server thread/INFO]: kattebaaz was slain by Zombie
-[11:51:27] [Server thread/INFO]: kattebaaz issued server command: /teleport gusainrahul497
-[11:51:27] [Server thread/INFO]: [kattebaaz: Teleported kattebaaz to gusainrahul497]
-[11:51:33] [Server thread/INFO]: gusainrahul497 fell from a high place
-[11:51:41] [Server thread/INFO]: gusainrahul497 issued server command: /tp gusainrahul497 kattebaaz
-[11:51:41] [Server thread/INFO]: [gusainrahul497: Teleported gusainrahul497 to kattebaaz]
-[11:51:53] [Server thread/INFO]: gusainrahul497 issued server command: /gamemode creative
-[11:51:53] [Server thread/INFO]: [gusainrahul497: Set own game mode to Creative Mode]
-[11:51:56] [Server thread/INFO]: kattebaaz issued server command: /gamemode crea
-[11:52:02] [Server thread/INFO]: kattebaaz issued server command: /gamemode creative
-[11:52:02] [Server thread/INFO]: [kattebaaz: Set own game mode to Creative Mode]
-[11:52:53] [Server thread/INFO]: kattebaaz issued server command: /gamemode survival
-[11:52:53] [Server thread/INFO]: [kattebaaz: Set own game mode to Survival Mode]
-[11:54:25] [Server thread/INFO]: gusainrahul497 issued server command: /tp gusainrahul497 Tracerx11
-[11:54:25] [Server thread/INFO]: [gusainrahul497: Teleported gusainrahul497 to Tracerx11]
-[11:55:20] [Server thread/INFO]: gusainrahul497 issued server command: /tp gusainrahul497 Tracerx11
-[11:55:20] [Server thread/INFO]: [gusainrahul497: Teleported gusainrahul497 to Tracerx11]
-[11:55:53] [Async Chat Thread - #0/INFO]: <gusainrahul497> p g k
-[11:55:54] [Server thread/INFO]: kattebaaz issued server command: /gamemode creative
-[11:55:54] [Server thread/INFO]: [kattebaaz: Set own game mode to Creative Mode]
-[11:55:58] [Server thread/INFO]: gusainrahul497 issued server command: /tp gusainrahul497 kattebaaz
-[11:55:58] [Server thread/INFO]: [gusainrahul497: Teleported gusainrahul497 to kattebaaz]
-[11:57:13] [Server thread/INFO]: gusainrahul497 issued server command: /tp gusainrahul497 kattebaaz
-[11:57:13] [Server thread/INFO]: [gusainrahul497: Teleported gusainrahul497 to kattebaaz]
-[11:58:02] [Server thread/INFO]: gusainrahul497 issued server command: /tp gusainrahul497 Tracerx11
-[11:58:02] [Server thread/INFO]: [gusainrahul497: Teleported gusainrahul497 to Tracerx11]
-[11:58:05] [Server thread/INFO]: kattebaaz issued server command: /teleport Tracerx11
-[11:58:05] [Server thread/INFO]: [kattebaaz: Teleported kattebaaz to Tracerx11]
-[11:58:10] [Server thread/INFO]: gusainrahul497 issued server command: /time set day
-[11:58:10] [Server thread/INFO]: [gusainrahul497: Set the time to 1000]
-[11:58:11] [Async Chat Thread - #1/INFO]: <Tracerx11> wwwwwwwwssssssssssssssssssssaaaaaaaaaaaaa
-[11:58:46] [Server thread/INFO]: gusainrahul497 issued server command: /gamemode creative
-[11:59:13] [Server thread/INFO]: gusainrahul497 issued server command: /gamemode survival
-[11:59:13] [Server thread/INFO]: [gusainrahul497: Set own game mode to Survival Mode]
-[11:59:25] [Async Chat Thread - #2/INFO]: <Tracerx11> tttt
-[11:59:52] [Server thread/INFO]: kattebaaz issued server command: /gamemode survival
-[11:59:52] [Server thread/INFO]: [kattebaaz: Set own game mode to Survival Mode]
-[12:00:56] [Server thread/INFO]: kattebaaz issued server command: /gamemode creative
-[12:00:56] [Server thread/INFO]: [kattebaaz: Set own game mode to Creative Mode]
-[12:01:13] [Server thread/WARN]: gusainrahul497 moved too quickly! -9.291703750520071,-1.0,7.695580429503934
-[12:03:26] [Server thread/INFO]: gusainrahul497 issued server command: /tp Tracerx11 gusainrahul497
-[12:03:26] [Server thread/INFO]: [gusainrahul497: Teleported Tracerx11 to gusainrahul497]
-[12:04:10] [Server thread/INFO]: kattebaaz issued server command: /gamemode survival
-[12:04:10] [Server thread/INFO]: [kattebaaz: Set own game mode to Survival Mode]
-[12:04:30] [Server thread/INFO]: gusainrahul497 issued server command: /tp gusainrahul497 kattebaaz
-[12:04:30] [Server thread/INFO]: [gusainrahul497: Teleported gusainrahul497 to kattebaaz]
-[12:04:46] [Server thread/INFO]: gusainrahul497 issued server command: /tp Tracerx11 gusainrahul497
-[12:04:46] [Server thread/INFO]: [gusainrahul497: Teleported Tracerx11 to gusainrahul497]
-[12:05:27] [Server thread/INFO]: kattebaaz has made the advancement [Ice Bucket Challenge]
-[12:08:46] [Server thread/INFO]: gusainrahul497 issued server command: /time set day
-[12:08:46] [Server thread/INFO]: [gusainrahul497: Set the time to 1000]
-[12:09:39] [Server thread/INFO]: gusainrahul497 has made the advancement [Ice Bucket Challenge]
-[12:10:53] [Server thread/INFO]: gusainrahul497 has made the advancement [We Need to Go Deeper]
-[12:10:58] [Server thread/INFO]: kattebaaz has made the advancement [We Need to Go Deeper]
-[12:11:10] [Server thread/INFO]: Tracerx11 has made the advancement [We Need to Go Deeper]
-[12:16:24] [Server thread/INFO]: kattebaaz has made the advancement [The Parrots and the Bats]
-[12:17:34] [Server thread/INFO]: gusainrahul497 issued server command: /weather clear
-[12:17:34] [Server thread/INFO]: [gusainrahul497: Set the weather to clear]
-[12:18:54] [Server thread/INFO]: gusainrahul497 issued server command: /time set day
-[12:18:54] [Server thread/INFO]: [gusainrahul497: Set the time to 1000]
-[12:19:12] [Server thread/INFO]: Tracerx11 issued server command: /teleport
-[12:19:41] [Server thread/INFO]: Tracerx11 issued server command: /tp
-[12:19:49] [Server thread/INFO]: gusainrahul497 issued server command: /tp Tracerx11 gusainrahul497
-[12:19:49] [Server thread/INFO]: [gusainrahul497: Teleported Tracerx11 to gusainrahul497]
-[12:23:28] [Server thread/INFO]: gusainrahul497 issued server command: /time set day
-[12:23:28] [Server thread/INFO]: [gusainrahul497: Set the time to 1000]
-[12:23:45] [Server thread/INFO]: gusainrahul497 issued server command: /time set day
-[12:23:45] [Server thread/INFO]: [gusainrahul497: Set the time to 1000]
-[12:24:16] [Server thread/INFO]: gusainrahul497 issued server command: /time add 1000
-[12:24:16] [Server thread/INFO]: [gusainrahul497: Set the time to 2620]
-[12:24:26] [Server thread/INFO]: gusainrahul497 issued server command: /time set day
-[12:24:26] [Server thread/INFO]: [gusainrahul497: Set the time to 1000]
-[12:25:40] [Server thread/INFO]: gusainrahul497 issued server command: /tps Tracerx11 gusainrahul497
-[12:25:52] [Server thread/INFO]: gusainrahul497 issued server command: /tp Tracerx11 gusainrahul497
-[12:25:52] [Server thread/INFO]: [gusainrahul497: Teleported Tracerx11 to gusainrahul497]
-[12:26:12] [Server thread/INFO]: gusainrahul497 issued server command: /weather clear
-[12:26:12] [Server thread/INFO]: [gusainrahul497: Set the weather to clear]
-[12:26:22] [Server thread/INFO]: gusainrahul497 issued server command: /tp kattebaaz gusainrahul497
-[12:26:22] [Server thread/INFO]: [gusainrahul497: Teleported kattebaaz to gusainrahul497]
-[12:26:32] [Server thread/INFO]: gusainrahul497 issued server command: /time set day
-[12:26:32] [Server thread/INFO]: [gusainrahul497: Set the time to 1000]
-[12:26:48] [Server thread/INFO]: Tracerx11 was slain by kattebaaz
-[12:27:03] [Server thread/INFO]: gusainrahul497 issued server command: /tp Tracerx11 gusainrahul497
-[12:27:03] [Server thread/INFO]: [gusainrahul497: Teleported Tracerx11 to gusainrahul497]
-[12:28:38] [Server thread/INFO]: Tracerx11 issued server command: /teleport
-[12:28:52] [Server thread/INFO]: Made Tracerx11 a server operator
-[12:28:58] [Server thread/INFO]: gusainrahul497 issued server command: /tp -484 68 500
-[12:28:58] [Server thread/INFO]: [gusainrahul497: Teleported gusainrahul497 to -483.5, 68.0, 500.5]
-[12:29:18] [Server thread/INFO]: kattebaaz issued server command: /teleport -12
-[12:29:54] [Server thread/INFO]: Tracerx11 issued server command: /
-[12:30:25] [Async Chat Thread - #3/INFO]: <Tracerx11> yt
-[12:31:07] [Server thread/INFO]: kattebaaz issued server command: /teleport gusainrahul497
-[12:31:07] [Server thread/INFO]: [kattebaaz: Teleported kattebaaz to gusainrahul497]
-[12:31:20] [Server thread/INFO]: gusainrahul497 issued server command: /weather clear
-[12:31:20] [Server thread/INFO]: [gusainrahul497: Set the weather to clear]
-[12:31:36] [Server thread/INFO]: kattebaaz issued server command: /teleport Tracerx11
-[12:31:36] [Server thread/INFO]: [kattebaaz: Teleported kattebaaz to Tracerx11]
-[12:32:16] [Server thread/INFO]: kattebaaz issued server command: /teleport gusainrahul497
-[12:32:16] [Server thread/INFO]: [kattebaaz: Teleported kattebaaz to gusainrahul497]
-[12:33:07] [Server thread/INFO]: kattebaaz issued server command: /teleport Tracerx11
-[12:33:07] [Server thread/INFO]: [kattebaaz: Teleported kattebaaz to Tracerx11]
-[12:33:42] [Server thread/INFO]: kattebaaz has made the advancement [Best Friends Forever]
-[12:34:08] [Server thread/INFO]: gusainrahul497 issued server command: /tp gusainrahul497 kattebaaz
-[12:34:08] [Server thread/INFO]: [gusainrahul497: Teleported gusainrahul497 to kattebaaz]
-[12:34:44] [Server thread/INFO]: gusainrahul497 issued server command: /tp -484 66 500
-[12:34:44] [Server thread/INFO]: [gusainrahul497: Teleported gusainrahul497 to -483.5, 66.0, 500.5]
-[12:35:01] [Server thread/INFO]: kattebaaz issued server command: /teleport gusainrahul497
-[12:35:01] [Server thread/INFO]: [kattebaaz: Teleported kattebaaz to gusainrahul497]
-[12:35:25] [Server thread/INFO]: kattebaaz issued server command: /teleport Tracerx11
-[12:35:25] [Server thread/INFO]: [kattebaaz: Teleported kattebaaz to Tracerx11]
-[12:35:46] [Server thread/INFO]: kattebaaz issued server command: /teleport gusainrahul497
-[12:35:46] [Server thread/INFO]: [kattebaaz: Teleported kattebaaz to gusainrahul497]
-[12:35:55] [Server thread/INFO]: kattebaaz issued server command: /teleport Tracerx11
-[12:35:55] [Server thread/INFO]: [kattebaaz: Teleported kattebaaz to Tracerx11]
-[12:36:34] [Server thread/INFO]: gusainrahul497 issued server command: /weather clear
-[12:36:34] [Server thread/INFO]: [gusainrahul497: Set the weather to clear]
-[12:37:01] [Server thread/INFO]: gusainrahul497 issued server command: /time set day
-[12:37:01] [Server thread/INFO]: [gusainrahul497: Set the time to 1000]
-[12:37:16] [Server thread/INFO]: gusainrahul497 issued server command: /tp gusainrahul497 kattebaaz
-[12:37:16] [Server thread/INFO]: [gusainrahul497: Teleported gusainrahul497 to kattebaaz]
-[12:37:20] [Server thread/INFO]: kattebaaz issued server command: /gamemode creative
-[12:37:20] [Server thread/INFO]: [kattebaaz: Set own game mode to Creative Mode]
-[12:38:36] [Server thread/INFO]: kattebaaz issued server command: /gamemode survival
-[12:38:36] [Server thread/INFO]: [kattebaaz: Set own game mode to Survival Mode]
-[12:38:40] [Server thread/INFO]: gusainrahul497 issued server command: /tp -294 66 504
-[12:38:40] [Server thread/INFO]: [gusainrahul497: Teleported gusainrahul497 to -293.5, 66.0, 504.5]
-[12:40:16] [Server thread/INFO]: gusainrahul497 issued server command: /tp Tracerx11 gusainrahul497
-[12:40:16] [Server thread/INFO]: [gusainrahul497: Teleported Tracerx11 to gusainrahul497]
-[12:40:41] [Server thread/INFO]: gusainrahul497 issued server command: /tp gusainrahul497 kattebaaz
-[12:40:41] [Server thread/INFO]: [gusainrahul497: Teleported gusainrahul497 to kattebaaz]
-[12:41:07] [Server thread/INFO]: gusainrahul497 issued server command: /tp gusainrahul497 Tracerx11
-[12:41:07] [Server thread/INFO]: [gusainrahul497: Teleported gusainrahul497 to Tracerx11]
-[12:41:12] [Server thread/INFO]: kattebaaz issued server command: /teleport
-[12:41:18] [Server thread/INFO]: kattebaaz issued server command: /teleport gusainrahul497
-[12:41:18] [Server thread/INFO]: [kattebaaz: Teleported kattebaaz to gusainrahul497]
-[12:41:52] [Server thread/INFO]: kattebaaz lost connection: Disconnected
-[12:41:52] [Server thread/INFO]: kattebaaz left the game
-[12:41:56] [Server thread/INFO]: gusainrahul497 issued server command: /weather clear
-[12:41:56] [Server thread/INFO]: [gusainrahul497: Set the weather to clear]
-[12:43:41] [Server thread/INFO]: Tracerx11 lost connection: Disconnected
-[12:43:41] [Server thread/INFO]: Tracerx11 left the game
-[12:45:54] [Server thread/INFO]: gusainrahul497 issued server command: /gamemode creative
-[12:45:54] [Server thread/INFO]: [gusainrahul497: Set own game mode to Creative Mode]
-[12:50:23] [Server thread/INFO]: gusainrahul497 issued server command: /time set day
-[12:50:23] [Server thread/INFO]: [gusainrahul497: Set the time to 1000]
-[12:50:26] [Server thread/INFO]: gusainrahul497 issued server command: /weather clear
-[12:50:26] [Server thread/INFO]: [gusainrahul497: Set the weather to clear]
-[12:52:48] [Server thread/INFO]: gusainrahul497 lost connection: Disconnected
-[12:52:48] [Server thread/INFO]: gusainrahul497 left the game
-[12:52:52] [User Authenticator #3/INFO]: UUID of player gusainrahul497 is 34a7f58e-f422-3ab6-a7e4-613911f11587
-[12:52:52] [Server thread/INFO]: gusainrahul497 joined the game
-[12:52:52] [Server thread/INFO]: gusainrahul497[/0:0:0:0:0:0:0:1:64845] logged in with entity id 20672 at ([world]-206.75459415573218, 64.0, 538.0574802865376)
-[12:53:22] [Server thread/INFO]: gusainrahul497 issued server command: /gamemode creative
-[12:53:37] [Server thread/INFO]: gusainrahul497 issued server command: /gamemode survival
-[12:53:37] [Server thread/INFO]: [gusainrahul497: Set own game mode to Survival Mode]
-[12:58:31] [Server thread/INFO]: gusainrahul497 was blown up by Creeper
-[12:58:47] [Server thread/INFO]: gusainrahul497 issued server command: /time set day
-[12:58:47] [Server thread/INFO]: [gusainrahul497: Set the time to 1000]
-[12:58:59] [Server thread/INFO]: gusainrahul497 issued server command: /weather clear
-[12:58:59] [Server thread/INFO]: [gusainrahul497: Set the weather to clear]
-[13:05:55] [Server thread/INFO]: gusainrahul497 issued server command: /weather clear
-[13:05:55] [Server thread/INFO]: [gusainrahul497: Set the weather to clear]
-[13:11:54] [Server thread/INFO]: gusainrahul497 issued server command: /weather clear
-[13:11:54] [Server thread/INFO]: [gusainrahul497: Set the weather to clear]
-[13:17:05] [Server thread/INFO]: gusainrahul497 lost connection: Disconnected
-[13:17:05] [Server thread/INFO]: gusainrahul497 left the game
-[13:21:22] [Server thread/INFO]: Stopping the server
-[13:21:22] [Server thread/INFO]: Stopping server
-[13:21:22] [Server thread/INFO]: Saving players
-[13:21:22] [Server thread/INFO]: Saving worlds
-[13:21:22] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[13:21:23] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[13:21:23] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[13:21:23] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[13:21:23] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[13:21:23] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[13:21:23] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[13:21:23] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[13:21:23] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[13:21:23] [Server thread/INFO]: Flushing Chunk IO
-[13:21:23] [Server thread/INFO]: Closing Thread Pool
-[13:21:23] [Server thread/INFO]: Closing Server
+[17:15:07] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[17:15:08] [main/INFO]: Reloading ResourceManager: Default, bukkit, BattyCoordinates_005
+[17:15:08] [Worker-Main-4/INFO]: Loaded 7 recipes
+[17:15:10] [Server thread/INFO]: Starting minecraft server version 1.16.5
+[17:15:10] [Server thread/INFO]: Loading properties
+[17:15:10] [Server thread/INFO]: This server is running Paper version git-Paper-613 (MC: 1.16.5) (Implementing API version 1.16.5-R0.1-SNAPSHOT)
+[17:15:10] [Server thread/INFO]: Debug logging is disabled
+[17:15:10] [Server thread/INFO]: Using 4 threads for Netty based IO
+[17:15:10] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[17:15:10] [Server thread/INFO]: Default game type: SURVIVAL
+[17:15:10] [Server thread/INFO]: Generating keypair
+[17:15:10] [Server thread/INFO]: Starting Minecraft server on *:25565
+[17:15:10] [Server thread/INFO]: Using default channel type
+[17:15:11] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[17:15:11] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[17:15:11] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[17:15:11] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[17:15:11] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[17:15:11] [Server thread/INFO]: Preparing level "world"
+[17:15:11] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[17:15:12] [Server thread/INFO]: Loaded 0 spawn chunks for world world
+[17:15:12] [Server thread/INFO]: Preparing spawn area: 0%
+[17:15:12] [Server thread/INFO]: Preparing spawn area: 0%
+[17:15:12] [Server thread/INFO]: Time elapsed: 537 ms
+[17:15:12] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[17:15:12] [Server thread/INFO]: Loaded 0 spawn chunks for world world_nether
+[17:15:12] [Server thread/INFO]: Time elapsed: 109 ms
+[17:15:12] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[17:15:12] [Server thread/INFO]: Loaded 0 spawn chunks for world world_the_end
+[17:15:12] [Server thread/INFO]: Time elapsed: 62 ms
+[17:15:12] [Server thread/INFO]: Running delayed init tasks
+[17:15:12] [Server thread/INFO]: Done (2.655s)! For help, type "help"
+[17:15:12] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] ************************************************************
+[17:15:12] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * WARNING - YOU ARE RUNNING AN OUTDATED VERSION OF JAVA.
+[17:15:12] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * PAPER WILL STOP BEING COMPATIBLE WITH THIS VERSION OF
+[17:15:12] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * JAVA WHEN MINECRAFT 1.17 IS RELEASED.
+[17:15:12] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] *
+[17:15:12] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * Please update the version of Java you use to run Paper
+[17:15:12] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * to at least Java 11. When Paper for Minecraft 1.17 is
+[17:15:12] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * released support for versions of Java before 11 will
+[17:15:12] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * be dropped.
+[17:15:12] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] *
+[17:15:12] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * Current Java version: 1.8.0_291
+[17:15:12] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] *
+[17:15:12] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * Check this forum post for more information: 
+[17:15:12] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] *   https://papermc.io/java11
+[17:15:12] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] ************************************************************
+[17:15:12] [Server thread/INFO]: Timings Reset
+[17:15:20] [Server thread/INFO]: Stopping the server
+[17:15:21] [Server thread/INFO]: Stopping server
+[17:15:21] [Server thread/INFO]: Saving players
+[17:15:21] [Server thread/INFO]: Saving worlds
+[17:15:21] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[17:15:21] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[17:15:21] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[17:15:22] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[17:15:22] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[17:15:23] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[17:15:23] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[17:15:23] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[17:15:23] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[17:15:23] [Server thread/INFO]: Flushing Chunk IO
+[17:15:23] [Server thread/INFO]: Closing Thread Pool
+[17:15:23] [Server thread/INFO]: Closing Server
