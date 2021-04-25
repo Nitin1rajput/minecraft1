@@ -1,64 +1,765 @@
-[17:15:07] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[17:15:08] [main/INFO]: Reloading ResourceManager: Default, bukkit, BattyCoordinates_005
-[17:15:08] [Worker-Main-4/INFO]: Loaded 7 recipes
-[17:15:10] [Server thread/INFO]: Starting minecraft server version 1.16.5
-[17:15:10] [Server thread/INFO]: Loading properties
-[17:15:10] [Server thread/INFO]: This server is running Paper version git-Paper-613 (MC: 1.16.5) (Implementing API version 1.16.5-R0.1-SNAPSHOT)
-[17:15:10] [Server thread/INFO]: Debug logging is disabled
-[17:15:10] [Server thread/INFO]: Using 4 threads for Netty based IO
-[17:15:10] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[17:15:10] [Server thread/INFO]: Default game type: SURVIVAL
-[17:15:10] [Server thread/INFO]: Generating keypair
-[17:15:10] [Server thread/INFO]: Starting Minecraft server on *:25565
-[17:15:10] [Server thread/INFO]: Using default channel type
-[17:15:11] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[17:15:11] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[17:15:11] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[17:15:11] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[17:15:11] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[17:15:11] [Server thread/INFO]: Preparing level "world"
-[17:15:11] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[17:15:12] [Server thread/INFO]: Loaded 0 spawn chunks for world world
-[17:15:12] [Server thread/INFO]: Preparing spawn area: 0%
-[17:15:12] [Server thread/INFO]: Preparing spawn area: 0%
-[17:15:12] [Server thread/INFO]: Time elapsed: 537 ms
-[17:15:12] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[17:15:12] [Server thread/INFO]: Loaded 0 spawn chunks for world world_nether
-[17:15:12] [Server thread/INFO]: Time elapsed: 109 ms
-[17:15:12] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[17:15:12] [Server thread/INFO]: Loaded 0 spawn chunks for world world_the_end
-[17:15:12] [Server thread/INFO]: Time elapsed: 62 ms
-[17:15:12] [Server thread/INFO]: Running delayed init tasks
-[17:15:12] [Server thread/INFO]: Done (2.655s)! For help, type "help"
-[17:15:12] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] ************************************************************
-[17:15:12] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * WARNING - YOU ARE RUNNING AN OUTDATED VERSION OF JAVA.
-[17:15:12] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * PAPER WILL STOP BEING COMPATIBLE WITH THIS VERSION OF
-[17:15:12] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * JAVA WHEN MINECRAFT 1.17 IS RELEASED.
-[17:15:12] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] *
-[17:15:12] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * Please update the version of Java you use to run Paper
-[17:15:12] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * to at least Java 11. When Paper for Minecraft 1.17 is
-[17:15:12] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * released support for versions of Java before 11 will
-[17:15:12] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * be dropped.
-[17:15:12] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] *
-[17:15:12] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * Current Java version: 1.8.0_291
-[17:15:12] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] *
-[17:15:12] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * Check this forum post for more information: 
-[17:15:12] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] *   https://papermc.io/java11
-[17:15:12] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] ************************************************************
-[17:15:12] [Server thread/INFO]: Timings Reset
-[17:15:20] [Server thread/INFO]: Stopping the server
-[17:15:21] [Server thread/INFO]: Stopping server
-[17:15:21] [Server thread/INFO]: Saving players
-[17:15:21] [Server thread/INFO]: Saving worlds
-[17:15:21] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[17:15:21] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[17:15:21] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[17:15:22] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[17:15:22] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[17:15:23] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[17:15:23] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[17:15:23] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[17:15:23] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[17:15:23] [Server thread/INFO]: Flushing Chunk IO
-[17:15:23] [Server thread/INFO]: Closing Thread Pool
-[17:15:23] [Server thread/INFO]: Closing Server
+[12:35:16] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[12:35:17] [main/INFO]: Reloading ResourceManager: Default, bukkit, BattyCoordinates_005
+[12:35:19] [Worker-Main-6/INFO]: Loaded 7 recipes
+[12:35:23] [Server thread/INFO]: Starting minecraft server version 1.16.5
+[12:35:23] [Server thread/INFO]: Loading properties
+[12:35:23] [Server thread/INFO]: This server is running Paper version git-Paper-613 (MC: 1.16.5) (Implementing API version 1.16.5-R0.1-SNAPSHOT)
+[12:35:23] [Server thread/INFO]: Debug logging is disabled
+[12:35:23] [Server thread/INFO]: Using 4 threads for Netty based IO
+[12:35:23] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[12:35:23] [Server thread/INFO]: Default game type: SURVIVAL
+[12:35:23] [Server thread/INFO]: Generating keypair
+[12:35:23] [Server thread/INFO]: Starting Minecraft server on *:25565
+[12:35:23] [Server thread/INFO]: Using default channel type
+[12:35:26] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[12:35:26] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[12:35:26] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[12:35:26] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[12:35:26] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[12:35:26] [Server thread/INFO]: Preparing level "world"
+[12:35:27] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[12:35:27] [Server thread/INFO]: Loaded 0 spawn chunks for world world
+[12:35:27] [Server thread/INFO]: Preparing spawn area: 0%
+[12:35:27] [Server thread/INFO]: Preparing spawn area: 0%
+[12:35:27] [Server thread/INFO]: Time elapsed: 790 ms
+[12:35:27] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[12:35:28] [Server thread/INFO]: Loaded 0 spawn chunks for world world_nether
+[12:35:28] [Server thread/INFO]: Time elapsed: 608 ms
+[12:35:28] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[12:35:28] [Server thread/INFO]: Loaded 0 spawn chunks for world world_the_end
+[12:35:28] [Server thread/INFO]: Time elapsed: 216 ms
+[12:35:28] [Server thread/INFO]: Running delayed init tasks
+[12:35:28] [Server thread/INFO]: Done (5.650s)! For help, type "help"
+[12:35:28] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] ************************************************************
+[12:35:28] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * WARNING - YOU ARE RUNNING AN OUTDATED VERSION OF JAVA.
+[12:35:28] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * PAPER WILL STOP BEING COMPATIBLE WITH THIS VERSION OF
+[12:35:28] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * JAVA WHEN MINECRAFT 1.17 IS RELEASED.
+[12:35:28] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] *
+[12:35:28] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * Please update the version of Java you use to run Paper
+[12:35:28] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * to at least Java 11. When Paper for Minecraft 1.17 is
+[12:35:28] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * released support for versions of Java before 11 will
+[12:35:28] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * be dropped.
+[12:35:28] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] *
+[12:35:28] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * Current Java version: 1.8.0_291
+[12:35:28] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] *
+[12:35:28] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * Check this forum post for more information: 
+[12:35:28] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] *   https://papermc.io/java11
+[12:35:28] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] ************************************************************
+[12:35:28] [Server thread/INFO]: Timings Reset
+[12:35:41] [User Authenticator #1/INFO]: UUID of player gusainrahul497 is 34a7f58e-f422-3ab6-a7e4-613911f11587
+[12:35:42] [Server thread/INFO]: gusainrahul497 joined the game
+[12:35:42] [Server thread/INFO]: gusainrahul497[/0:0:0:0:0:0:0:1:53547] logged in with entity id 196 at ([world]-300.5, 64.0, 530.5)
+[12:36:25] [Server thread/INFO]: gusainrahul497 issued server command: /time set day
+[12:36:25] [Server thread/INFO]: [gusainrahul497: Set the time to 1000]
+[12:36:35] [Server thread/INFO]: gusainrahul497 issued server command: /gamemode creative
+[12:36:35] [Server thread/INFO]: [gusainrahul497: Set own game mode to Creative Mode]
+[12:37:45] [Server thread/INFO]: gusainrahul497 issued server command: /gamemode survival
+[12:37:45] [Server thread/INFO]: [gusainrahul497: Set own game mode to Survival Mode]
+[12:37:48] [User Authenticator #2/INFO]: UUID of player kattebaaz is d1073450-4bee-318d-ba9b-57b62429f548
+[12:37:48] [Server thread/INFO]: kattebaaz joined the game
+[12:37:49] [Server thread/INFO]: kattebaaz[/0:0:0:0:0:0:0:1:53624] logged in with entity id 806 at ([world]-292.5, 70.0, 502.5)
+[12:38:17] [Server thread/INFO]: kattebaaz lost connection: Disconnected
+[12:38:17] [Server thread/INFO]: kattebaaz left the game
+[12:38:29] [User Authenticator #2/INFO]: UUID of player kattebaaz is d1073450-4bee-318d-ba9b-57b62429f548
+[12:38:29] [Server thread/INFO]: kattebaaz joined the game
+[12:38:29] [Server thread/INFO]: kattebaaz[/0:0:0:0:0:0:0:1:53649] logged in with entity id 993 at ([world]-292.5, 70.0, 502.5)
+[12:38:54] [Async Chat Thread - #0/INFO]: <kattebaaz> ab bta kya krna h
+[12:39:00] [Async Chat Thread - #0/INFO]: <gusainrahul497> ghar bna
+[12:39:25] [Async Chat Thread - #0/INFO]: <gusainrahul497> apna apna ghar bnate h
+[12:39:35] [Async Chat Thread - #0/INFO]: <gusainrahul497> mining kr k laate h
+[12:40:44] [Server thread/INFO]: gusainrahul497 issued server command: /tp gusainrahul497 kattebaaz
+[12:40:44] [Server thread/INFO]: [gusainrahul497: Teleported gusainrahul497 to kattebaaz]
+[12:41:27] [Async Chat Thread - #1/INFO]: <gusainrahul497> iron ko blast furnance m kiya kr na
+[12:41:33] [Async Chat Thread - #1/INFO]: <gusainrahul497> jldi ho jaaya krega
+[12:43:03] [Async Chat Thread - #2/INFO]: <gusainrahul497> kya kr rha h
+[12:43:12] [Server thread/INFO]: gusainrahul497 issued server command: /tp gusainrahul497 kattebaaz
+[12:43:12] [Server thread/INFO]: [gusainrahul497: Teleported gusainrahul497 to kattebaaz]
+[12:43:25] [Async Chat Thread - #2/INFO]: <gusainrahul497> straight minig krenge aaja
+[12:47:09] [Server thread/INFO]: gusainrahul497 issued server command: /time set day
+[12:47:09] [Server thread/INFO]: [gusainrahul497: Set the time to 1000]
+[12:47:18] [Async Chat Thread - #3/INFO]: <gusainrahul497> ok
+[12:47:28] [Server thread/INFO]: gusainrahul497 issued server command: /tp gusainrahul497 kattebaaz
+[12:47:28] [Server thread/INFO]: [gusainrahul497: Teleported gusainrahul497 to kattebaaz]
+[12:47:56] [Async Chat Thread - #3/INFO]: <gusainrahul497> hai
+[12:48:33] [Async Chat Thread - #3/INFO]: <gusainrahul497> kar li yaha sa
+[12:51:42] [Server thread/INFO]: gusainrahul497 fell from a high place
+[12:51:50] [Server thread/INFO]: gusainrahul497 issued server command: /tp gusainrahul497 kattebaaz
+[12:51:50] [Server thread/INFO]: [gusainrahul497: Teleported gusainrahul497 to kattebaaz]
+[13:03:42] [Server thread/INFO]: gusainrahul497 lost connection: Disconnected
+[13:03:42] [Server thread/INFO]: gusainrahul497 left the game
+[13:04:27] [User Authenticator #3/INFO]: UUID of player gusainrahul497 is 34a7f58e-f422-3ab6-a7e4-613911f11587
+[13:04:27] [Server thread/INFO]: gusainrahul497 joined the game
+[13:04:27] [Server thread/INFO]: gusainrahul497[/0:0:0:0:0:0:0:1:53728] logged in with entity id 4530 at ([world]-265.300000011921, 67.0, 316.69999998807907)
+[13:05:25] [Server thread/INFO]: gusainrahul497 issued server command: /tp gusainrahul497 kattebaaz
+[13:05:25] [Server thread/INFO]: [gusainrahul497: Teleported gusainrahul497 to kattebaaz]
+[13:05:52] [Server thread/INFO]: gusainrahul497 lost connection: Disconnected
+[13:05:52] [Server thread/INFO]: gusainrahul497 left the game
+[13:05:59] [User Authenticator #4/INFO]: UUID of player gusainrahul497 is 34a7f58e-f422-3ab6-a7e4-613911f11587
+[13:05:59] [Server thread/INFO]: gusainrahul497 joined the game
+[13:05:59] [Server thread/INFO]: gusainrahul497[/0:0:0:0:0:0:0:1:53736] logged in with entity id 4966 at ([world]-308.4725466570966, 74.0, 285.0236380977847)
+[13:06:56] [Server thread/INFO]: gusainrahul497 issued server command: /tp gusainrahul497 kattebaaz
+[13:06:56] [Server thread/INFO]: [gusainrahul497: Teleported gusainrahul497 to kattebaaz]
+[13:09:34] [Server thread/INFO]: kattebaaz fell from a high place
+[13:09:47] [Server thread/INFO]: kattebaaz issued server command: /teleport gusainrahul497
+[13:09:47] [Server thread/INFO]: [kattebaaz: Teleported kattebaaz to gusainrahul497]
+[13:14:29] [User Authenticator #5/INFO]: UUID of player Tracerx11 is 2a728dcd-9adf-3429-a4a1-8daa07501206
+[13:14:29] [Server thread/INFO]: Tracerx11 joined the game
+[13:14:29] [Server thread/INFO]: Tracerx11[/0:0:0:0:0:0:0:1:53766] logged in with entity id 6484 at ([world]-294.31456671656485, 70.0, 501.67910523960603)
+[13:15:58] [Server thread/INFO]: Tracerx11 issued server command: /teleport
+[13:16:21] [Server thread/INFO]: Tracerx11 issued server command: /teleport gusainrahul497
+[13:16:21] [Server thread/INFO]: [Tracerx11: Teleported Tracerx11 to gusainrahul497]
+[13:17:59] [Server thread/INFO]: Tracerx11 issued server command: /teleport
+[13:18:12] [Server thread/INFO]: Tracerx11 issued server command: /teleport kattebaaz
+[13:18:12] [Server thread/INFO]: [Tracerx11: Teleported Tracerx11 to kattebaaz]
+[13:19:13] [Server thread/INFO]: Tracerx11 issued server command: /teleport
+[13:19:24] [Server thread/INFO]: Tracerx11 issued server command: /teleport gusainrahul497
+[13:19:24] [Server thread/INFO]: [Tracerx11: Teleported Tracerx11 to gusainrahul497]
+[13:19:47] [Server thread/INFO]: Tracerx11 drowned
+[13:20:21] [Async Chat Thread - #4/INFO]: <gusainrahul497> abe vo paani as a lift lgayi h
+[13:20:36] [Async Chat Thread - #4/INFO]: <gusainrahul497> abe vo paani lift h
+[13:20:43] [Async Chat Thread - #4/INFO]: <gusainrahul497> dub q rha h usmai
+[13:20:57] [Async Chat Thread - #4/INFO]: <gusainrahul497> fast speed m bagiyo us k andar
+[13:23:01] [Server thread/INFO]: gusainrahul497 issued server command: /tp gusainrahul497 kattebaaz
+[13:23:01] [Server thread/INFO]: [gusainrahul497: Teleported gusainrahul497 to kattebaaz]
+[13:24:00] [Server thread/INFO]: kattebaaz was slain by Zombie
+[13:24:56] [Server thread/INFO]: gusainrahul497 issued server command: /time set day
+[13:24:56] [Server thread/INFO]: [gusainrahul497: Set the time to 1000]
+[13:28:02] [Server thread/INFO]: gusainrahul497 issued server command: /gamemode creative
+[13:28:02] [Server thread/INFO]: [gusainrahul497: Set own game mode to Creative Mode]
+[13:29:26] [Server thread/INFO]: kattebaaz issued server command: /gamemode creative
+[13:29:26] [Server thread/INFO]: [kattebaaz: Set own game mode to Creative Mode]
+[13:30:05] [Server thread/INFO]: gusainrahul497 issued server command: /gamemode survival
+[13:30:05] [Server thread/INFO]: [gusainrahul497: Set own game mode to Survival Mode]
+[13:31:30] [Server thread/INFO]: kattebaaz issued server command: /gamemode survival
+[13:31:30] [Server thread/INFO]: [kattebaaz: Set own game mode to Survival Mode]
+[13:31:40] [Async Chat Thread - #5/INFO]: <gusainrahul497> mai ja rha khana khane
+[13:31:42] [Server thread/INFO]: gusainrahul497 lost connection: Disconnected
+[13:31:42] [Server thread/INFO]: gusainrahul497 left the game
+[13:31:52] [Server thread/INFO]: kattebaaz issued server command: /gamemode creative
+[13:31:52] [Server thread/INFO]: [kattebaaz: Set own game mode to Creative Mode]
+[13:39:42] [Server thread/INFO]: Tracerx11 was shot by Skeleton
+[13:40:51] [Server thread/INFO]: Tracerx11 issued server command: /gamemode creative
+[13:40:51] [Server thread/INFO]: [Tracerx11: Set own game mode to Creative Mode]
+[13:45:08] [User Authenticator #6/INFO]: UUID of player gusainrahul497 is 34a7f58e-f422-3ab6-a7e4-613911f11587
+[13:45:08] [Server thread/INFO]: gusainrahul497 joined the game
+[13:45:08] [Server thread/INFO]: gusainrahul497[/0:0:0:0:0:0:0:1:53819] logged in with entity id 11003 at ([world]-294.84810734123084, 70.0, 500.8577518281017)
+[13:45:21] [Server thread/INFO]: gusainrahul497 lost connection: Disconnected
+[13:45:21] [Server thread/INFO]: gusainrahul497 left the game
+[13:45:27] [Server thread/INFO]: Tracerx11 has completed the challenge [Cover Me in Debris]
+[13:45:28] [User Authenticator #6/INFO]: UUID of player gusainrahul497 is 34a7f58e-f422-3ab6-a7e4-613911f11587
+[13:45:28] [Server thread/INFO]: gusainrahul497 joined the game
+[13:45:28] [Server thread/INFO]: gusainrahul497[/0:0:0:0:0:0:0:1:53821] logged in with entity id 11039 at ([world]-294.84810734123084, 70.0, 500.8577518281017)
+[13:46:24] [Server thread/INFO]: Tracerx11 issued server command: /gamemode adventure
+[13:46:24] [Server thread/INFO]: [Tracerx11: Set own game mode to Adventure Mode]
+[13:47:55] [Server thread/INFO]: gusainrahul497 was slain by Tracerx11
+[13:47:56] [Server thread/INFO]: Tracerx11 has made the advancement [Acquire Hardware]
+[13:49:48] [Server thread/INFO]: Tracerx11 issued server command: /gamemode creative
+[13:49:48] [Server thread/INFO]: [Tracerx11: Set own game mode to Creative Mode]
+[13:50:39] [Server thread/INFO]: Tracerx11 issued server command: /gamemode survival
+[13:50:39] [Server thread/INFO]: [Tracerx11: Set own game mode to Survival Mode]
+[13:53:26] [Async Chat Thread - #6/INFO]: <Tracerx11> t5
+[13:55:42] [Server thread/INFO]: gusainrahul497 issued server command: /time set day
+[13:55:42] [Server thread/INFO]: [gusainrahul497: Set the time to 1000]
+[13:59:40] [Server thread/INFO]: gusainrahul497 lost connection: Disconnected
+[13:59:40] [Server thread/INFO]: gusainrahul497 left the game
+[14:00:21] [Server thread/INFO]: Tracerx11 issued server command: /teleport kattebaaz
+[14:00:21] [Server thread/INFO]: [Tracerx11: Teleported Tracerx11 to kattebaaz]
+[14:00:31] [User Authenticator #7/INFO]: UUID of player gusainrahul497 is 34a7f58e-f422-3ab6-a7e4-613911f11587
+[14:00:31] [Server thread/INFO]: gusainrahul497 joined the game
+[14:00:31] [Server thread/INFO]: gusainrahul497[/0:0:0:0:0:0:0:1:53854] logged in with entity id 13108 at ([world]-317.55825330394435, 63.0, 598.0526459734873)
+[14:00:32] [Server thread/INFO]: gusainrahul497 lost connection: Disconnected
+[14:00:32] [Server thread/INFO]: gusainrahul497 left the game
+[14:00:49] [User Authenticator #7/INFO]: UUID of player gusainrahul497 is 34a7f58e-f422-3ab6-a7e4-613911f11587
+[14:00:49] [Server thread/INFO]: gusainrahul497 joined the game
+[14:00:49] [Server thread/INFO]: gusainrahul497[/0:0:0:0:0:0:0:1:53858] logged in with entity id 13159 at ([world]-317.55825330394435, 63.0, 598.0526459734873)
+[14:01:54] [Server thread/INFO]: gusainrahul497 issued server command: /tp gusainrahul497 Tracerx11
+[14:01:54] [Server thread/INFO]: [gusainrahul497: Teleported gusainrahul497 to Tracerx11]
+[14:03:48] [Server thread/INFO]: Tracerx11 issued server command: /teleport gusainrahul497
+[14:03:48] [Server thread/INFO]: [Tracerx11: Teleported Tracerx11 to gusainrahul497]
+[14:06:10] [Server thread/INFO]: gusainrahul497 issued server command: /time set day
+[14:06:10] [Server thread/INFO]: [gusainrahul497: Set the time to 1000]
+[14:08:06] [Server thread/INFO]: Tracerx11 issued server command: /teleport gusainrahul497
+[14:08:06] [Server thread/INFO]: [Tracerx11: Teleported Tracerx11 to gusainrahul497]
+[14:12:38] [Server thread/INFO]: gusainrahul497 issued server command: /tp gusainrahul497 kattebaaz
+[14:12:38] [Server thread/INFO]: [gusainrahul497: Teleported gusainrahul497 to kattebaaz]
+[14:12:47] [Server thread/INFO]: gusainrahul497 issued server command: /tp Tracerx11 kattebaaz
+[14:12:47] [Server thread/INFO]: [gusainrahul497: Teleported Tracerx11 to kattebaaz]
+[14:12:52] [Server thread/INFO]: Tracerx11 issued server command: /
+[14:13:18] [Server thread/INFO]: Tracerx11 issued server command: /teleport gusainrahul497
+[14:13:18] [Server thread/INFO]: [Tracerx11: Teleported Tracerx11 to gusainrahul497]
+[14:16:44] [Async Chat Thread - #7/INFO]: <Tracerx11> zzzzzzzzzzz
+[14:19:18] [Server thread/INFO]: gusainrahul497 issued server command: /tp -767 71 814
+[14:19:18] [Server thread/INFO]: [gusainrahul497: Teleported gusainrahul497 to -766.5, 71.0, 814.5]
+[14:19:35] [Server thread/INFO]: Tracerx11 issued server command: /teleport gusainrahul497
+[14:19:35] [Server thread/INFO]: [Tracerx11: Teleported Tracerx11 to gusainrahul497]
+[14:23:24] [Server thread/INFO]: gusainrahul497 issued server command: /tp gusainrahul497 kattebaaz
+[14:23:24] [Server thread/INFO]: [gusainrahul497: Teleported gusainrahul497 to kattebaaz]
+[14:23:38] [Server thread/INFO]: Tracerx11 issued server command: /teleport gusainrahul497
+[14:23:38] [Server thread/INFO]: [Tracerx11: Teleported Tracerx11 to gusainrahul497]
+[14:25:37] [Server thread/INFO]: Tracerx11 issued server command: /teleport gusainrahul497
+[14:25:37] [Server thread/INFO]: [Tracerx11: Teleported Tracerx11 to gusainrahul497]
+[14:27:00] [Server thread/INFO]: gusainrahul497 issued server command: /tp -766 71 814
+[14:27:00] [Server thread/INFO]: [gusainrahul497: Teleported gusainrahul497 to -765.5, 71.0, 814.5]
+[14:27:10] [Server thread/INFO]: Tracerx11 issued server command: /teleport gusainrahul497
+[14:27:10] [Server thread/INFO]: [Tracerx11: Teleported Tracerx11 to gusainrahul497]
+[14:27:41] [Server thread/INFO]: gusainrahul497 has reached the goal [Zombie Doctor]
+[14:31:35] [Server thread/INFO]: gusainrahul497 issued server command: /tp gusainrahul497 kattebaaz
+[14:31:35] [Server thread/INFO]: [gusainrahul497: Teleported gusainrahul497 to kattebaaz]
+[14:31:58] [Server thread/INFO]: gusainrahul497 issued server command: /time set day
+[14:31:58] [Server thread/INFO]: [gusainrahul497: Set the time to 1000]
+[14:33:27] [Server thread/INFO]: gusainrahul497 issued server command: /tp gusainrahul497 Tracerx11
+[14:33:27] [Server thread/INFO]: [gusainrahul497: Teleported gusainrahul497 to Tracerx11]
+[14:40:34] [Server thread/INFO]: Tracerx11 issued server command: /teleport kattebaaz
+[14:40:34] [Server thread/INFO]: [Tracerx11: Teleported Tracerx11 to kattebaaz]
+[14:40:36] [Server thread/INFO]: Tracerx11 fell from a high place
+[14:41:07] [Server thread/INFO]: Tracerx11 issued server command: /teleport kattebaaz
+[14:41:07] [Server thread/INFO]: [Tracerx11: Teleported Tracerx11 to kattebaaz]
+[14:41:53] [Server thread/WARN]: Tracerx11 was kicked due to keepalive timeout!
+[14:41:53] [Server thread/INFO]: Tracerx11 lost connection: Timed out
+[14:41:53] [Server thread/INFO]: Tracerx11 left the game
+[14:42:03] [User Authenticator #8/INFO]: UUID of player Tracerx11 is 2a728dcd-9adf-3429-a4a1-8daa07501206
+[14:42:03] [Server thread/INFO]: Tracerx11 joined the game
+[14:42:03] [Server thread/INFO]: Tracerx11[/0:0:0:0:0:0:0:1:53918] logged in with entity id 23501 at ([world]-296.76163662202896, 70.0, 501.69999998807907)
+[14:42:31] [Async Chat Thread - #8/INFO]: <Tracerx11> ssssSass
+[14:42:48] [Server thread/WARN]: Tracerx11 was kicked due to keepalive timeout!
+[14:42:48] [Server thread/INFO]: Tracerx11 lost connection: Timed out
+[14:42:48] [Server thread/INFO]: Tracerx11 left the game
+[14:43:02] [User Authenticator #8/INFO]: UUID of player Tracerx11 is 2a728dcd-9adf-3429-a4a1-8daa07501206
+[14:43:02] [Server thread/INFO]: Tracerx11 joined the game
+[14:43:02] [Server thread/INFO]: Tracerx11[/0:0:0:0:0:0:0:1:53920] logged in with entity id 23771 at ([world]-314.16009607243546, 71.0, 509.30000001192093)
+[14:43:05] [Server thread/INFO]: gusainrahul497 issued server command: /give gusainrahul497 minecraft:l
+[14:43:21] [Server thread/INFO]: gusainrahul497 issued server command: /give gusainrahul497 minecraft:lantern
+[14:43:21] [Server thread/INFO]: [gusainrahul497: Gave 1 [Lantern] to gusainrahul497]
+[14:43:34] [Server thread/INFO]: Tracerx11 lost connection: Timed out
+[14:43:34] [Server thread/INFO]: Tracerx11 left the game
+[14:43:34] [Server thread/INFO]: gusainrahul497 lost connection: Disconnected
+[14:43:34] [Server thread/INFO]: gusainrahul497 left the game
+[14:43:54] [User Authenticator #8/INFO]: UUID of player Tracerx11 is 2a728dcd-9adf-3429-a4a1-8daa07501206
+[14:43:54] [Server thread/INFO]: Tracerx11 joined the game
+[14:43:54] [Server thread/INFO]: Tracerx11[/0:0:0:0:0:0:0:1:53926] logged in with entity id 23906 at ([world]-314.16009607243546, 71.0, 509.30000001192093)
+[14:44:22] [Server thread/INFO]: Tracerx11 issued server command: /teleport kattebaaz
+[14:44:22] [Server thread/INFO]: [Tracerx11: Teleported Tracerx11 to kattebaaz]
+[14:44:25] [Server thread/INFO]: Tracerx11 was slain by Zombie
+[14:44:37] [User Authenticator #8/INFO]: UUID of player gusainrahul497 is 34a7f58e-f422-3ab6-a7e4-613911f11587
+[14:44:38] [Server thread/INFO]: gusainrahul497 joined the game
+[14:44:38] [Server thread/INFO]: gusainrahul497[/0:0:0:0:0:0:0:1:53928] logged in with entity id 23953 at ([world]-764.7783279204514, 34.0, 819.9674392606684)
+[14:44:39] [Server thread/WARN]: Tracerx11 was kicked due to keepalive timeout!
+[14:44:39] [Server thread/INFO]: Tracerx11 lost connection: Timed out
+[14:44:39] [Server thread/INFO]: Tracerx11 left the game
+[14:44:49] [User Authenticator #8/INFO]: UUID of player Tracerx11 is 2a728dcd-9adf-3429-a4a1-8daa07501206
+[14:44:49] [Server thread/INFO]: Tracerx11 joined the game
+[14:44:49] [Server thread/INFO]: Tracerx11[/0:0:0:0:0:0:0:1:53929] logged in with entity id 24176 at ([world]-315.93554000754006, 71.2829253285644, 509.4424447686326)
+[14:44:54] [Async Chat Thread - #9/INFO]: <gusainrahul497> meri mic band rhega ba
+[14:45:04] [Server thread/INFO]: Tracerx11 lost connection: Disconnected
+[14:45:04] [Server thread/INFO]: Tracerx11 left the game
+[14:45:07] [User Authenticator #8/INFO]: UUID of player Tracerx11 is 2a728dcd-9adf-3429-a4a1-8daa07501206
+[14:45:07] [Server thread/INFO]: Tracerx11 joined the game
+[14:45:07] [Server thread/INFO]: Tracerx11[/0:0:0:0:0:0:0:1:53931] logged in with entity id 24219 at ([world]-315.93554000754006, 71.20452532703852, 509.4424447686326)
+[14:45:52] [Server thread/WARN]: Tracerx11 was kicked due to keepalive timeout!
+[14:45:52] [Server thread/INFO]: Tracerx11 lost connection: Timed out
+[14:45:52] [Server thread/INFO]: Tracerx11 left the game
+[14:46:17] [Server thread/INFO]: Villager EntityVillager['Villager'/23955, uuid='324675e9-232f-416d-a207-3fbbf001bb7c', l='ServerLevel[world]', x=-766.46, y=34.00, z=815.70, cx=-48, cz=50, tl=21041, v=true, d=false] died, message: 'Villager was slain by gusainrahul497'
+[14:48:25] [Server thread/INFO]: gusainrahul497 issued server command: /time set day
+[14:48:25] [Server thread/INFO]: [gusainrahul497: Set the time to 1000]
+[14:48:29] [Server thread/INFO]: gusainrahul497 issued server command: /tp gusainrahul497 kattebaaz
+[14:48:29] [Server thread/INFO]: [gusainrahul497: Teleported gusainrahul497 to kattebaaz]
+[14:52:14] [Async Chat Thread - #10/INFO]: <kattebaaz> ho ky gamemai?
+[14:52:36] [Server thread/INFO]: gusainrahul497 was blown up by Creeper
+[14:52:49] [Server thread/INFO]: gusainrahul497 issued server command: /tp gusainrahul497 kattebaaz
+[14:52:49] [Server thread/INFO]: [gusainrahul497: Teleported gusainrahul497 to kattebaaz]
+[14:58:31] [Server thread/INFO]: gusainrahul497 issued server command: /time set day
+[14:58:31] [Server thread/INFO]: [gusainrahul497: Set the time to 1000]
+[15:05:46] [Server thread/WARN]: Horse (vehicle of gusainrahul497) moved wrongly! 0.4624788267860493
+[15:08:33] [Server thread/INFO]: gusainrahul497 issued server command: /time set day
+[15:08:33] [Server thread/INFO]: [gusainrahul497: Set the time to 1000]
+[15:16:10] [Server thread/INFO]: gusainrahul497 issued server command: /tp gusainrahul497 kattebaaz
+[15:16:10] [Server thread/INFO]: [gusainrahul497: Teleported gusainrahul497 to kattebaaz]
+[15:17:00] [Async Chat Thread - #11/INFO]: <gusainrahul497> chest mat hatiyo
+[15:18:43] [Server thread/INFO]: gusainrahul497 issued server command: /time set day
+[15:18:43] [Server thread/INFO]: [gusainrahul497: Set the time to 1000]
+[15:24:34] [Async Chat Thread - #12/INFO]: <gusainrahul497> dekh nitin neeche
+[15:30:30] [Server thread/INFO]: gusainrahul497 issued server command: /time set day
+[15:30:30] [Server thread/INFO]: [gusainrahul497: Set the time to 1000]
+[15:30:50] [Server thread/WARN]: Boat (vehicle of gusainrahul497) moved wrongly! 0.35618127104697805
+[15:30:50] [Server thread/WARN]: Boat (vehicle of gusainrahul497) moved wrongly! 1.0246167376455446
+[15:30:50] [Server thread/WARN]: Boat (vehicle of gusainrahul497) moved wrongly! 1.6523769983616603
+[15:30:50] [Server thread/WARN]: Boat (vehicle of gusainrahul497) moved wrongly! 0.5441167111900427
+[15:30:50] [Server thread/WARN]: Boat (vehicle of gusainrahul497) moved wrongly! 0.585538053489131
+[15:34:18] [Server thread/INFO]: gusainrahul497 issued server command: /tp gusainrahul497 kattebaaz
+[15:34:18] [Server thread/INFO]: [gusainrahul497: Teleported gusainrahul497 to kattebaaz]
+[15:40:23] [Server thread/INFO]: gusainrahul497 issued server command: /time set day
+[15:40:23] [Server thread/INFO]: [gusainrahul497: Set the time to 1000]
+[15:44:40] [Async Chat Thread - #13/INFO]: <kattebaaz> raat krio ek br
+[15:44:50] [Server thread/INFO]: gusainrahul497 issued server command: /time set night
+[15:44:50] [Server thread/INFO]: [gusainrahul497: Set the time to 13000]
+[15:47:51] [Server thread/INFO]: gusainrahul497 issued server command: /time set day
+[15:47:51] [Server thread/INFO]: [gusainrahul497: Set the time to 1000]
+[15:48:28] [Async Chat Thread - #14/INFO]: <kattebaaz> chl m jaara sir m drd hogya mere
+[15:48:44] [Async Chat Thread - #14/INFO]: <gusainrahul497> server bhi band krega
+[15:48:53] [Async Chat Thread - #14/INFO]: <kattebaaz> bta tu?
+[15:49:04] [Async Chat Thread - #14/INFO]: <gusainrahul497> laptop khula rhega to rhene de
+[15:49:13] [Async Chat Thread - #14/INFO]: <gusainrahul497> bas kheti kr k aaya m
+[15:49:14] [Async Chat Thread - #14/INFO]: <kattebaaz> ok
+[15:49:15] [Server thread/INFO]: kattebaaz lost connection: Disconnected
+[15:49:15] [Server thread/INFO]: kattebaaz left the game
+[16:00:39] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 261097ms or 5221 ticks behind
+[16:00:39] [Server thread/INFO]: gusainrahul497 lost connection: Timed out
+[16:00:40] [Paper Watchdog Thread/ERROR]: ------------------------------
+[16:00:40] [Paper Watchdog Thread/ERROR]: The server has stopped responding! This is (probably) not a Paper bug.
+[16:00:40] [Paper Watchdog Thread/ERROR]: If you see a plugin in the Server thread dump below, then please report it to that author
+[16:00:40] [Paper Watchdog Thread/ERROR]: 	 *Especially* if it looks like HTTP or MySQL operations are occurring
+[16:00:40] [Paper Watchdog Thread/ERROR]: If you see a world save or edit, then it means you did far more than your server can handle at once
+[16:00:40] [Paper Watchdog Thread/ERROR]: 	 If this is the case, consider increasing timeout-time in spigot.yml but note that this will replace the crash with LARGE lag spikes
+[16:00:40] [Paper Watchdog Thread/ERROR]: If you are unsure or still think this is a Paper bug, please report this to https://github.com/PaperMC/Paper/issues
+[16:00:40] [Paper Watchdog Thread/ERROR]: Be sure to include ALL relevant console errors and Minecraft crash reports
+[16:00:40] [Paper Watchdog Thread/ERROR]: Paper version: git-Paper-613 (MC: 1.16.5)
+[16:00:40] [Paper Watchdog Thread/ERROR]: ------------------------------
+[16:00:40] [Paper Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
+[16:00:40] [Paper Watchdog Thread/ERROR]: ------------------------------
+[16:00:40] [Paper Watchdog Thread/ERROR]: Current Thread: Server thread
+[16:00:40] [Paper Watchdog Thread/ERROR]: 	PID: 24 | Suspended: false | Native: false | State: RUNNABLE
+[16:00:40] [Paper Watchdog Thread/ERROR]: 	Stack:
+[16:00:40] [Paper Watchdog Thread/ERROR]: 		java.lang.StringBuilder.toString(Unknown Source)
+[16:00:40] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_16_R3.MinecraftKey.toString(SourceFile:97)
+[16:00:40] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_16_R3.ServerStatisticManager.b(ServerStatisticManager.java:211)
+[16:00:40] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_16_R3.ServerStatisticManager.save(ServerStatisticManager.java:72)
+[16:00:40] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_16_R3.PlayerList.savePlayerFile(PlayerList.java:574)
+[16:00:40] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_16_R3.PlayerList.disconnect(PlayerList.java:621)
+[16:00:40] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_16_R3.PlayerConnection.a(PlayerConnection.java:1842)
+[16:00:40] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_16_R3.NetworkManager.handleDisconnection(NetworkManager.java:518)
+[16:00:40] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_16_R3.ServerConnection.c(ServerConnection.java:178)
+[16:00:40] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_16_R3.MinecraftServer.b(MinecraftServer.java:1511)
+[16:00:40] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_16_R3.DedicatedServer.b(DedicatedServer.java:418)
+[16:00:40] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_16_R3.MinecraftServer.a(MinecraftServer.java:1338)
+[16:00:40] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_16_R3.MinecraftServer.w(MinecraftServer.java:1126)
+[16:00:40] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_16_R3.MinecraftServer.lambda$a$0(MinecraftServer.java:289)
+[16:00:40] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_16_R3.MinecraftServer$$Lambda$3057/1220638447.run(Unknown Source)
+[16:00:40] [Paper Watchdog Thread/ERROR]: 		java.lang.Thread.run(Unknown Source)
+[16:00:40] [Paper Watchdog Thread/ERROR]: ------------------------------
+[16:00:40] [Paper Watchdog Thread/ERROR]: Entire Thread Dump:
+[16:00:41] [Paper Watchdog Thread/ERROR]: ------------------------------
+[16:00:41] [Paper Watchdog Thread/ERROR]: Current Thread: Netty Server IO #3
+[16:00:41] [Paper Watchdog Thread/ERROR]: 	PID: 58 | Suspended: false | Native: true | State: RUNNABLE
+[16:00:41] [Paper Watchdog Thread/ERROR]: 	Thread is waiting on monitor(s):
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		Locked on:sun.nio.ch.SelectorImpl.lockAndDoSelect(Unknown Source)
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		Locked on:sun.nio.ch.SelectorImpl.lockAndDoSelect(Unknown Source)
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		Locked on:sun.nio.ch.SelectorImpl.lockAndDoSelect(Unknown Source)
+[16:00:41] [Paper Watchdog Thread/ERROR]: 	Stack:
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		sun.nio.ch.WindowsSelectorImpl$SubSelector.poll0(Native Method)
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		sun.nio.ch.WindowsSelectorImpl$SubSelector.poll(Unknown Source)
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		sun.nio.ch.WindowsSelectorImpl$SubSelector.access$400(Unknown Source)
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		sun.nio.ch.WindowsSelectorImpl.doSelect(Unknown Source)
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		sun.nio.ch.SelectorImpl.lockAndDoSelect(Unknown Source)
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		sun.nio.ch.SelectorImpl.select(Unknown Source)
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		sun.nio.ch.SelectorImpl.select(Unknown Source)
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		io.netty.channel.nio.SelectedSelectionKeySetSelector.select(SelectedSelectionKeySetSelector.java:68)
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:803)
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:457)
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		java.lang.Thread.run(Unknown Source)
+[16:00:41] [Paper Watchdog Thread/ERROR]: ------------------------------
+[16:00:41] [Paper Watchdog Thread/ERROR]: Current Thread: Netty Server IO #2
+[16:00:41] [Paper Watchdog Thread/ERROR]: 	PID: 54 | Suspended: false | Native: true | State: RUNNABLE
+[16:00:41] [Paper Watchdog Thread/ERROR]: 	Thread is waiting on monitor(s):
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		Locked on:sun.nio.ch.SelectorImpl.lockAndDoSelect(Unknown Source)
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		Locked on:sun.nio.ch.SelectorImpl.lockAndDoSelect(Unknown Source)
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		Locked on:sun.nio.ch.SelectorImpl.lockAndDoSelect(Unknown Source)
+[16:00:41] [Paper Watchdog Thread/ERROR]: 	Stack:
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		sun.nio.ch.WindowsSelectorImpl$SubSelector.poll0(Native Method)
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		sun.nio.ch.WindowsSelectorImpl$SubSelector.poll(Unknown Source)
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		sun.nio.ch.WindowsSelectorImpl$SubSelector.access$400(Unknown Source)
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		sun.nio.ch.WindowsSelectorImpl.doSelect(Unknown Source)
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		sun.nio.ch.SelectorImpl.lockAndDoSelect(Unknown Source)
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		sun.nio.ch.SelectorImpl.select(Unknown Source)
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		sun.nio.ch.SelectorImpl.select(Unknown Source)
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		io.netty.channel.nio.SelectedSelectionKeySetSelector.select(SelectedSelectionKeySetSelector.java:68)
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:803)
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:457)
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		java.lang.Thread.run(Unknown Source)
+[16:00:41] [Paper Watchdog Thread/ERROR]: ------------------------------
+[16:00:41] [Paper Watchdog Thread/ERROR]: Current Thread: Netty Server IO #1
+[16:00:41] [Paper Watchdog Thread/ERROR]: 	PID: 50 | Suspended: false | Native: true | State: RUNNABLE
+[16:00:41] [Paper Watchdog Thread/ERROR]: 	Thread is waiting on monitor(s):
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		Locked on:sun.nio.ch.SelectorImpl.lockAndDoSelect(Unknown Source)
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		Locked on:sun.nio.ch.SelectorImpl.lockAndDoSelect(Unknown Source)
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		Locked on:sun.nio.ch.SelectorImpl.lockAndDoSelect(Unknown Source)
+[16:00:41] [Paper Watchdog Thread/ERROR]: 	Stack:
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		sun.nio.ch.WindowsSelectorImpl$SubSelector.poll0(Native Method)
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		sun.nio.ch.WindowsSelectorImpl$SubSelector.poll(Unknown Source)
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		sun.nio.ch.WindowsSelectorImpl$SubSelector.access$400(Unknown Source)
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		sun.nio.ch.WindowsSelectorImpl.doSelect(Unknown Source)
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		sun.nio.ch.SelectorImpl.lockAndDoSelect(Unknown Source)
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		sun.nio.ch.SelectorImpl.select(Unknown Source)
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		sun.nio.ch.SelectorImpl.select(Unknown Source)
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		io.netty.channel.nio.SelectedSelectionKeySetSelector.select(SelectedSelectionKeySetSelector.java:68)
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:803)
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:457)
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		java.lang.Thread.run(Unknown Source)
+[16:00:41] [Paper Watchdog Thread/ERROR]: ------------------------------
+[16:00:41] [Paper Watchdog Thread/ERROR]: Current Thread: world_the_end - Light
+[16:00:41] [Paper Watchdog Thread/ERROR]: 	PID: 49 | Suspended: false | Native: false | State: WAITING
+[16:00:41] [Paper Watchdog Thread/ERROR]: 	Stack:
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		sun.misc.Unsafe.park(Native Method)
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.locks.LockSupport.park(Unknown Source)
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(Unknown Source)
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.LinkedBlockingQueue.take(Unknown Source)
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		java.lang.Thread.run(Unknown Source)
+[16:00:41] [Paper Watchdog Thread/ERROR]: ------------------------------
+[16:00:41] [Paper Watchdog Thread/ERROR]: Current Thread: world_nether - Light
+[16:00:41] [Paper Watchdog Thread/ERROR]: 	PID: 48 | Suspended: false | Native: false | State: WAITING
+[16:00:41] [Paper Watchdog Thread/ERROR]: 	Stack:
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		sun.misc.Unsafe.park(Native Method)
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.locks.LockSupport.park(Unknown Source)
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(Unknown Source)
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.LinkedBlockingQueue.take(Unknown Source)
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		java.lang.Thread.run(Unknown Source)
+[16:00:41] [Paper Watchdog Thread/ERROR]: ------------------------------
+[16:00:41] [Paper Watchdog Thread/ERROR]: Current Thread: Paper Object Cleaner
+[16:00:41] [Paper Watchdog Thread/ERROR]: 	PID: 47 | Suspended: false | Native: false | State: WAITING
+[16:00:41] [Paper Watchdog Thread/ERROR]: 	Stack:
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		sun.misc.Unsafe.park(Native Method)
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.locks.LockSupport.park(Unknown Source)
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(Unknown Source)
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.LinkedBlockingQueue.take(Unknown Source)
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		java.lang.Thread.run(Unknown Source)
+[16:00:41] [Paper Watchdog Thread/ERROR]: ------------------------------
+[16:00:41] [Paper Watchdog Thread/ERROR]: Current Thread: Craft Async Scheduler Management Thread
+[16:00:41] [Paper Watchdog Thread/ERROR]: 	PID: 46 | Suspended: false | Native: false | State: WAITING
+[16:00:41] [Paper Watchdog Thread/ERROR]: 	Stack:
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		sun.misc.Unsafe.park(Native Method)
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.locks.LockSupport.park(Unknown Source)
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(Unknown Source)
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.LinkedBlockingQueue.take(Unknown Source)
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		java.lang.Thread.run(Unknown Source)
+[16:00:41] [Paper Watchdog Thread/ERROR]: ------------------------------
+[16:00:41] [Paper Watchdog Thread/ERROR]: Current Thread: world - Light
+[16:00:41] [Paper Watchdog Thread/ERROR]: 	PID: 45 | Suspended: false | Native: false | State: WAITING
+[16:00:41] [Paper Watchdog Thread/ERROR]: 	Stack:
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		sun.misc.Unsafe.park(Native Method)
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.locks.LockSupport.park(Unknown Source)
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(Unknown Source)
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.LinkedBlockingQueue.take(Unknown Source)
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		java.lang.Thread.run(Unknown Source)
+[16:00:41] [Paper Watchdog Thread/ERROR]: ------------------------------
+[16:00:41] [Paper Watchdog Thread/ERROR]: Current Thread: Paper RegionFile IO Thread
+[16:00:41] [Paper Watchdog Thread/ERROR]: 	PID: 44 | Suspended: false | Native: false | State: WAITING
+[16:00:41] [Paper Watchdog Thread/ERROR]: 	Stack:
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		sun.misc.Unsafe.park(Native Method)
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.locks.LockSupport.park(Unknown Source)
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		com.destroystokyo.paper.io.QueueExecutorThread.run(QueueExecutorThread.java:84)
+[16:00:41] [Paper Watchdog Thread/ERROR]: ------------------------------
+[16:00:41] [Paper Watchdog Thread/ERROR]: Current Thread: Netty Server IO #0
+[16:00:41] [Paper Watchdog Thread/ERROR]: 	PID: 43 | Suspended: false | Native: true | State: RUNNABLE
+[16:00:41] [Paper Watchdog Thread/ERROR]: 	Thread is waiting on monitor(s):
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		Locked on:sun.nio.ch.SelectorImpl.lockAndDoSelect(Unknown Source)
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		Locked on:sun.nio.ch.SelectorImpl.lockAndDoSelect(Unknown Source)
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		Locked on:sun.nio.ch.SelectorImpl.lockAndDoSelect(Unknown Source)
+[16:00:41] [Paper Watchdog Thread/ERROR]: 	Stack:
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		sun.nio.ch.WindowsSelectorImpl$SubSelector.poll0(Native Method)
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		sun.nio.ch.WindowsSelectorImpl$SubSelector.poll(Unknown Source)
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		sun.nio.ch.WindowsSelectorImpl$SubSelector.access$400(Unknown Source)
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		sun.nio.ch.WindowsSelectorImpl.doSelect(Unknown Source)
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		sun.nio.ch.SelectorImpl.lockAndDoSelect(Unknown Source)
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		sun.nio.ch.SelectorImpl.select(Unknown Source)
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		sun.nio.ch.SelectorImpl.select(Unknown Source)
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		io.netty.channel.nio.SelectedSelectionKeySetSelector.select(SelectedSelectionKeySetSelector.java:68)
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:803)
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:457)
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		java.lang.Thread.run(Unknown Source)
+[16:00:41] [Paper Watchdog Thread/ERROR]: ------------------------------
+[16:00:41] [Paper Watchdog Thread/ERROR]: Current Thread: pool-4-thread-1
+[16:00:41] [Paper Watchdog Thread/ERROR]: 	PID: 42 | Suspended: false | Native: false | State: TIMED_WAITING
+[16:00:41] [Paper Watchdog Thread/ERROR]: 	Stack:
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		sun.misc.Unsafe.park(Native Method)
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.locks.LockSupport.parkNanos(Unknown Source)
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(Unknown Source)
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		java.lang.Thread.run(Unknown Source)
+[16:00:41] [Paper Watchdog Thread/ERROR]: ------------------------------
+[16:00:41] [Paper Watchdog Thread/ERROR]: Current Thread: Paper Async Chunk Urgent Task Thread
+[16:00:41] [Paper Watchdog Thread/ERROR]: 	PID: 41 | Suspended: false | Native: false | State: WAITING
+[16:00:41] [Paper Watchdog Thread/ERROR]: 	Stack:
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		sun.misc.Unsafe.park(Native Method)
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.locks.LockSupport.park(Unknown Source)
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		com.destroystokyo.paper.io.QueueExecutorThread.run(QueueExecutorThread.java:84)
+[16:00:41] [Paper Watchdog Thread/ERROR]: ------------------------------
+[16:00:41] [Paper Watchdog Thread/ERROR]: Current Thread: Paper Async Chunk Task Thread #6
+[16:00:41] [Paper Watchdog Thread/ERROR]: 	PID: 40 | Suspended: false | Native: false | State: WAITING
+[16:00:41] [Paper Watchdog Thread/ERROR]: 	Stack:
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		sun.misc.Unsafe.park(Native Method)
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.locks.LockSupport.park(Unknown Source)
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		com.destroystokyo.paper.io.QueueExecutorThread.run(QueueExecutorThread.java:84)
+[16:00:41] [Paper Watchdog Thread/ERROR]: ------------------------------
+[16:00:41] [Paper Watchdog Thread/ERROR]: Current Thread: Paper Async Chunk Task Thread #5
+[16:00:41] [Paper Watchdog Thread/ERROR]: 	PID: 39 | Suspended: false | Native: false | State: WAITING
+[16:00:41] [Paper Watchdog Thread/ERROR]: 	Stack:
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		sun.misc.Unsafe.park(Native Method)
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.locks.LockSupport.park(Unknown Source)
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		com.destroystokyo.paper.io.QueueExecutorThread.run(QueueExecutorThread.java:84)
+[16:00:41] [Paper Watchdog Thread/ERROR]: ------------------------------
+[16:00:41] [Paper Watchdog Thread/ERROR]: Current Thread: Paper Async Chunk Task Thread #4
+[16:00:41] [Paper Watchdog Thread/ERROR]: 	PID: 38 | Suspended: false | Native: false | State: WAITING
+[16:00:41] [Paper Watchdog Thread/ERROR]: 	Stack:
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		sun.misc.Unsafe.park(Native Method)
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.locks.LockSupport.park(Unknown Source)
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		com.destroystokyo.paper.io.QueueExecutorThread.run(QueueExecutorThread.java:84)
+[16:00:41] [Paper Watchdog Thread/ERROR]: ------------------------------
+[16:00:41] [Paper Watchdog Thread/ERROR]: Current Thread: Paper Async Chunk Task Thread #3
+[16:00:41] [Paper Watchdog Thread/ERROR]: 	PID: 37 | Suspended: false | Native: false | State: WAITING
+[16:00:41] [Paper Watchdog Thread/ERROR]: 	Stack:
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		sun.misc.Unsafe.park(Native Method)
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.locks.LockSupport.park(Unknown Source)
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		com.destroystokyo.paper.io.QueueExecutorThread.run(QueueExecutorThread.java:84)
+[16:00:41] [Paper Watchdog Thread/ERROR]: ------------------------------
+[16:00:41] [Paper Watchdog Thread/ERROR]: Current Thread: Paper Async Chunk Task Thread #2
+[16:00:41] [Paper Watchdog Thread/ERROR]: 	PID: 36 | Suspended: false | Native: false | State: WAITING
+[16:00:41] [Paper Watchdog Thread/ERROR]: 	Stack:
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		sun.misc.Unsafe.park(Native Method)
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.locks.LockSupport.park(Unknown Source)
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		com.destroystokyo.paper.io.QueueExecutorThread.run(QueueExecutorThread.java:84)
+[16:00:41] [Paper Watchdog Thread/ERROR]: ------------------------------
+[16:00:41] [Paper Watchdog Thread/ERROR]: Current Thread: Paper Async Chunk Task Thread #1
+[16:00:41] [Paper Watchdog Thread/ERROR]: 	PID: 35 | Suspended: false | Native: false | State: WAITING
+[16:00:41] [Paper Watchdog Thread/ERROR]: 	Stack:
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		sun.misc.Unsafe.park(Native Method)
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.locks.LockSupport.park(Unknown Source)
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		com.destroystokyo.paper.io.QueueExecutorThread.run(QueueExecutorThread.java:84)
+[16:00:41] [Paper Watchdog Thread/ERROR]: ------------------------------
+[16:00:41] [Paper Watchdog Thread/ERROR]: Current Thread: Paper Async Chunk Task Thread #0
+[16:00:41] [Paper Watchdog Thread/ERROR]: 	PID: 34 | Suspended: false | Native: false | State: WAITING
+[16:00:41] [Paper Watchdog Thread/ERROR]: 	Stack:
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		sun.misc.Unsafe.park(Native Method)
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.locks.LockSupport.park(Unknown Source)
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		com.destroystokyo.paper.io.QueueExecutorThread.run(QueueExecutorThread.java:84)
+[16:00:41] [Paper Watchdog Thread/ERROR]: ------------------------------
+[16:00:41] [Paper Watchdog Thread/ERROR]: Current Thread: Paper Watchdog Thread
+[16:00:41] [Paper Watchdog Thread/ERROR]: 	PID: 33 | Suspended: false | Native: false | State: RUNNABLE
+[16:00:41] [Paper Watchdog Thread/ERROR]: 	Stack:
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		sun.management.ThreadImpl.dumpThreads0(Native Method)
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		sun.management.ThreadImpl.dumpAllThreads(Unknown Source)
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		org.spigotmc.WatchdogThread.run(WatchdogThread.java:131)
+[16:00:41] [Paper Watchdog Thread/ERROR]: ------------------------------
+[16:00:41] [Paper Watchdog Thread/ERROR]: Current Thread: DestroyJavaVM
+[16:00:41] [Paper Watchdog Thread/ERROR]: 	PID: 28 | Suspended: false | Native: false | State: RUNNABLE
+[16:00:41] [Paper Watchdog Thread/ERROR]: 	Stack:
+[16:00:41] [Paper Watchdog Thread/ERROR]: ------------------------------
+[16:00:41] [Paper Watchdog Thread/ERROR]: Current Thread: Server console handler
+[16:00:41] [Paper Watchdog Thread/ERROR]: 	PID: 27 | Suspended: false | Native: false | State: TIMED_WAITING
+[16:00:41] [Paper Watchdog Thread/ERROR]: 	Stack:
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		java.lang.Object.wait(Native Method)
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		org.jline.utils.NonBlockingPumpReader.wait(NonBlockingPumpReader.java:55)
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		org.jline.utils.NonBlockingPumpReader.read(NonBlockingPumpReader.java:101)
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		org.jline.utils.NonBlockingReader.read(NonBlockingReader.java:57)
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		org.jline.keymap.BindingReader.readCharacter(BindingReader.java:133)
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		org.jline.keymap.BindingReader.readBinding(BindingReader.java:110)
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		org.jline.keymap.BindingReader.readBinding(BindingReader.java:61)
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		org.jline.reader.impl.LineReaderImpl.doReadBinding(LineReaderImpl.java:848)
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		org.jline.reader.impl.LineReaderImpl.readBinding(LineReaderImpl.java:868)
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		org.jline.reader.impl.LineReaderImpl.readLine(LineReaderImpl.java:575)
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		org.jline.reader.impl.LineReaderImpl.readLine(LineReaderImpl.java:418)
+[16:00:41] [Server thread/INFO]: gusainrahul497 left the game
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		net.minecrell.terminalconsole.SimpleTerminalConsole.readCommands(SimpleTerminalConsole.java:158)
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		net.minecrell.terminalconsole.SimpleTerminalConsole.start(SimpleTerminalConsole.java:141)
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_16_R3.DedicatedServer$1.run(DedicatedServer.java:106)
+[16:00:41] [Paper Watchdog Thread/ERROR]: ------------------------------
+[16:00:41] [Paper Watchdog Thread/ERROR]: Current Thread: Server thread
+[16:00:41] [Paper Watchdog Thread/ERROR]: 	PID: 24 | Suspended: false | Native: false | State: RUNNABLE
+[16:00:41] [Paper Watchdog Thread/ERROR]: 	Thread is waiting on monitor(s):
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		Locked on:net.minecraft.server.v1_16_R3.ServerConnection.c(ServerConnection.java:178)
+[16:00:41] [Paper Watchdog Thread/ERROR]: 	Stack:
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_16_R3.AdvancementProgress.b(SourceFile:66)
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_16_R3.AdvancementDataPlayer.b(AdvancementDataPlayer.java:237)
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_16_R3.PlayerList.savePlayerFile(PlayerList.java:580)
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_16_R3.PlayerList.disconnect(PlayerList.java:621)
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_16_R3.PlayerConnection.a(PlayerConnection.java:1842)
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_16_R3.NetworkManager.handleDisconnection(NetworkManager.java:518)
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_16_R3.ServerConnection.c(ServerConnection.java:178)
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_16_R3.MinecraftServer.b(MinecraftServer.java:1511)
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_16_R3.DedicatedServer.b(DedicatedServer.java:418)
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_16_R3.MinecraftServer.a(MinecraftServer.java:1338)
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_16_R3.MinecraftServer.w(MinecraftServer.java:1126)
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_16_R3.MinecraftServer.lambda$a$0(MinecraftServer.java:289)
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_16_R3.MinecraftServer$$Lambda$3057/1220638447.run(Unknown Source)
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		java.lang.Thread.run(Unknown Source)
+[16:00:41] [Paper Watchdog Thread/ERROR]: ------------------------------
+[16:00:41] [Paper Watchdog Thread/ERROR]: Current Thread: Snooper Timer
+[16:00:41] [Paper Watchdog Thread/ERROR]: 	PID: 25 | Suspended: false | Native: false | State: WAITING
+[16:00:41] [Paper Watchdog Thread/ERROR]: 	Stack:
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		java.lang.Object.wait(Native Method)
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		java.lang.Object.wait(Unknown Source)
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		java.util.TimerThread.mainLoop(Unknown Source)
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		java.util.TimerThread.run(Unknown Source)
+[16:00:41] [Paper Watchdog Thread/ERROR]: ------------------------------
+[16:00:41] [Paper Watchdog Thread/ERROR]: Current Thread: Worker-Main-6
+[16:00:41] [Paper Watchdog Thread/ERROR]: 	PID: 23 | Suspended: false | Native: false | State: WAITING
+[16:00:41] [Paper Watchdog Thread/ERROR]: 	Stack:
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		sun.misc.Unsafe.park(Native Method)
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.locks.LockSupport.park(Unknown Source)
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(Unknown Source)
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.LinkedBlockingQueue.take(Unknown Source)
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		java.lang.Thread.run(Unknown Source)
+[16:00:41] [Paper Watchdog Thread/ERROR]: ------------------------------
+[16:00:41] [Paper Watchdog Thread/ERROR]: Current Thread: Worker-Main-5
+[16:00:41] [Paper Watchdog Thread/ERROR]: 	PID: 22 | Suspended: false | Native: false | State: WAITING
+[16:00:41] [Paper Watchdog Thread/ERROR]: 	Stack:
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		sun.misc.Unsafe.park(Native Method)
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.locks.LockSupport.park(Unknown Source)
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(Unknown Source)
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.LinkedBlockingQueue.take(Unknown Source)
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		java.lang.Thread.run(Unknown Source)
+[16:00:41] [Paper Watchdog Thread/ERROR]: ------------------------------
+[16:00:41] [Paper Watchdog Thread/ERROR]: Current Thread: Worker-Main-4
+[16:00:41] [Paper Watchdog Thread/ERROR]: 	PID: 21 | Suspended: false | Native: false | State: WAITING
+[16:00:41] [Paper Watchdog Thread/ERROR]: 	Stack:
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		sun.misc.Unsafe.park(Native Method)
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.locks.LockSupport.park(Unknown Source)
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(Unknown Source)
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.LinkedBlockingQueue.take(Unknown Source)
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		java.lang.Thread.run(Unknown Source)
+[16:00:41] [Paper Watchdog Thread/ERROR]: ------------------------------
+[16:00:41] [Paper Watchdog Thread/ERROR]: Current Thread: Worker-Main-3
+[16:00:41] [Paper Watchdog Thread/ERROR]: 	PID: 20 | Suspended: false | Native: false | State: WAITING
+[16:00:41] [Paper Watchdog Thread/ERROR]: 	Stack:
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		sun.misc.Unsafe.park(Native Method)
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.locks.LockSupport.park(Unknown Source)
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(Unknown Source)
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.LinkedBlockingQueue.take(Unknown Source)
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		java.lang.Thread.run(Unknown Source)
+[16:00:41] [Paper Watchdog Thread/ERROR]: ------------------------------
+[16:00:41] [Paper Watchdog Thread/ERROR]: Current Thread: Worker-Main-2
+[16:00:41] [Paper Watchdog Thread/ERROR]: 	PID: 19 | Suspended: false | Native: false | State: WAITING
+[16:00:41] [Paper Watchdog Thread/ERROR]: 	Stack:
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		sun.misc.Unsafe.park(Native Method)
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.locks.LockSupport.park(Unknown Source)
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(Unknown Source)
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.LinkedBlockingQueue.take(Unknown Source)
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		java.lang.Thread.run(Unknown Source)
+[16:00:41] [Paper Watchdog Thread/ERROR]: ------------------------------
+[16:00:41] [Paper Watchdog Thread/ERROR]: Current Thread: Worker-Main-1
+[16:00:41] [Paper Watchdog Thread/ERROR]: 	PID: 18 | Suspended: false | Native: false | State: WAITING
+[16:00:41] [Paper Watchdog Thread/ERROR]: 	Stack:
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		sun.misc.Unsafe.park(Native Method)
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.locks.LockSupport.park(Unknown Source)
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(Unknown Source)
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.LinkedBlockingQueue.take(Unknown Source)
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		java.lang.Thread.run(Unknown Source)
+[16:00:41] [Paper Watchdog Thread/ERROR]: ------------------------------
+[16:00:41] [Paper Watchdog Thread/ERROR]: Current Thread: Timer hack thread
+[16:00:41] [Paper Watchdog Thread/ERROR]: 	PID: 17 | Suspended: false | Native: false | State: TIMED_WAITING
+[16:00:41] [Paper Watchdog Thread/ERROR]: 	Stack:
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		java.lang.Thread.sleep(Native Method)
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_16_R3.SystemUtils$5.run(SystemUtils.java:473)
+[16:00:41] [Paper Watchdog Thread/ERROR]: ------------------------------
+[16:00:41] [Paper Watchdog Thread/ERROR]: Current Thread: WindowsStreamPump
+[16:00:41] [Paper Watchdog Thread/ERROR]: 	PID: 15 | Suspended: false | Native: false | State: RUNNABLE
+[16:00:41] [Paper Watchdog Thread/ERROR]: 	Stack:
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		org.fusesource.jansi.internal.Kernel32.WaitForSingleObject(Native Method)
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		org.fusesource.jansi.internal.WindowsSupport.readConsoleInput(WindowsSupport.java:97)
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		org.jline.terminal.impl.jansi.win.JansiWinSysTerminal.processConsoleInput(JansiWinSysTerminal.java:112)
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		org.jline.terminal.impl.AbstractWindowsTerminal.pump(AbstractWindowsTerminal.java:458)
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		org.jline.terminal.impl.AbstractWindowsTerminal$$Lambda$12/1054932644.run(Unknown Source)
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		java.lang.Thread.run(Unknown Source)
+[16:00:41] [Paper Watchdog Thread/ERROR]: ------------------------------
+[16:00:41] [Paper Watchdog Thread/ERROR]: Current Thread: Log4j2-TF-1-AsyncLogger[AsyncContext@5c647e05]-1
+[16:00:41] [Paper Watchdog Thread/ERROR]: 	PID: 13 | Suspended: false | Native: false | State: TIMED_WAITING
+[16:00:41] [Paper Watchdog Thread/ERROR]: 	Stack:
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		sun.misc.Unsafe.park(Native Method)
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.locks.LockSupport.parkNanos(Unknown Source)
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(Unknown Source)
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		com.lmax.disruptor.TimeoutBlockingWaitStrategy.waitFor(TimeoutBlockingWaitStrategy.java:38)
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		com.lmax.disruptor.ProcessingSequenceBarrier.waitFor(ProcessingSequenceBarrier.java:56)
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		com.lmax.disruptor.BatchEventProcessor.processEvents(BatchEventProcessor.java:159)
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		com.lmax.disruptor.BatchEventProcessor.run(BatchEventProcessor.java:125)
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		java.lang.Thread.run(Unknown Source)
+[16:00:41] [Paper Watchdog Thread/ERROR]: ------------------------------
+[16:00:41] [Paper Watchdog Thread/ERROR]: Current Thread: Attach Listener
+[16:00:41] [Paper Watchdog Thread/ERROR]: 	PID: 5 | Suspended: false | Native: false | State: RUNNABLE
+[16:00:41] [Paper Watchdog Thread/ERROR]: 	Stack:
+[16:00:41] [Paper Watchdog Thread/ERROR]: ------------------------------
+[16:00:41] [Paper Watchdog Thread/ERROR]: Current Thread: Signal Dispatcher
+[16:00:41] [Paper Watchdog Thread/ERROR]: 	PID: 4 | Suspended: false | Native: false | State: RUNNABLE
+[16:00:41] [Paper Watchdog Thread/ERROR]: 	Stack:
+[16:00:41] [Paper Watchdog Thread/ERROR]: ------------------------------
+[16:00:41] [Paper Watchdog Thread/ERROR]: Current Thread: Finalizer
+[16:00:41] [Paper Watchdog Thread/ERROR]: 	PID: 3 | Suspended: false | Native: false | State: WAITING
+[16:00:41] [Paper Watchdog Thread/ERROR]: 	Stack:
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		java.lang.Object.wait(Native Method)
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		java.lang.ref.ReferenceQueue.remove(Unknown Source)
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		java.lang.ref.ReferenceQueue.remove(Unknown Source)
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		java.lang.ref.Finalizer$FinalizerThread.run(Unknown Source)
+[16:00:41] [Paper Watchdog Thread/ERROR]: ------------------------------
+[16:00:41] [Paper Watchdog Thread/ERROR]: Current Thread: Reference Handler
+[16:00:41] [Paper Watchdog Thread/ERROR]: 	PID: 2 | Suspended: false | Native: false | State: WAITING
+[16:00:41] [Paper Watchdog Thread/ERROR]: 	Stack:
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		java.lang.Object.wait(Native Method)
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		java.lang.Object.wait(Unknown Source)
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		java.lang.ref.Reference.tryHandlePending(Unknown Source)
+[16:00:41] [Paper Watchdog Thread/ERROR]: 		java.lang.ref.Reference$ReferenceHandler.run(Unknown Source)
+[16:00:41] [Paper Watchdog Thread/ERROR]: ------------------------------
+[16:00:42] [Paper Watchdog Thread/INFO]: Stopping main thread (Ignore any thread death message you see! - DO NOT REPORT THREAD DEATH TO PAPER)
+[16:00:42] [Server thread/ERROR]: Main thread terminated by WatchDog due to hard crash
+java.lang.ThreadDeath: null
+	at java.lang.Thread.stop(Unknown Source) [?:1.8.0_291]
+	at net.minecraft.server.v1_16_R3.MinecraftServer.stop(MinecraftServer.java:881) ~[patched_1.16.5.jar:git-Paper-613]
+	at net.minecraft.server.v1_16_R3.DedicatedServer.stop(DedicatedServer.java:745) ~[patched_1.16.5.jar:git-Paper-613]
+	at net.minecraft.server.v1_16_R3.MinecraftServer.close(MinecraftServer.java:853) ~[patched_1.16.5.jar:git-Paper-613]
+	at org.spigotmc.WatchdogThread.run(WatchdogThread.java:161) ~[patched_1.16.5.jar:git-Paper-613]
+[16:00:42] [Paper Watchdog Thread/INFO]: Stopping server
+[16:00:42] [Paper Watchdog Thread/INFO]: Saving players
+[16:00:42] [Paper Watchdog Thread/INFO]: Saving worlds
+[16:00:42] [Paper Watchdog Thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[16:00:44] [Paper Watchdog Thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[16:00:44] [Paper Watchdog Thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[16:00:44] [Paper Watchdog Thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[16:00:44] [Paper Watchdog Thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[16:00:44] [Paper Watchdog Thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[16:00:44] [Paper Watchdog Thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[16:00:44] [Paper Watchdog Thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[16:00:44] [Paper Watchdog Thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[16:00:44] [Paper Watchdog Thread/INFO]: Flushing Chunk IO
+[16:00:44] [Paper Watchdog Thread/INFO]: Closing Thread Pool
+[16:00:44] [Paper Watchdog Thread/INFO]: Closing Server
